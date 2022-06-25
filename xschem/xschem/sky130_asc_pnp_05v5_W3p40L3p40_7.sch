@@ -25,12 +25,14 @@ N 460 -600 460 -470 { lab=Base}
 N 370 -600 370 -470 { lab=Base}
 N 260 -600 260 -470 { lab=Base}
 N 90 -600 250 -600 { lab=Base}
-N 90 -370 200 -370 { lab=Collector}
 N 200 -370 780 -370 { lab=Collector}
 N 200 -560 780 -560 { lab=Emitter}
 N 250 -600 740 -600 { lab=Base}
 N 90 -560 200 -560 { lab=Emitter}
 N 160 -600 160 -470 { lab=Base}
+N 840 -630 880 -630 {}
+N 880 -630 880 -370 {}
+N 780 -370 880 -370 {}
 C {xschem_sky130/sky130_fd_pr/pnp_05v5.sym} 280 -470 0 0 {name=Q1
 model=pnp_05v5_W3p40L3p40
 spiceprefix=X
@@ -61,11 +63,8 @@ spiceprefix=X
 }
 C {devices/iopin.sym} 100 -600 2 0 {name=p1 lab=Base}
 C {devices/iopin.sym} 100 -560 2 0 {name=p2 lab=Emitter}
-C {devices/iopin.sym} 100 -370 2 0 {name=p3 lab=Collector}
+C {devices/iopin.sym} 850 -630 2 0 {name=p3 lab=Collector}
 C {devices/iopin.sym} 110 -790 2 0 {name=p4 lab=VPWR
 }
 C {devices/iopin.sym} 110 -760 2 0 {name=p5 lab=VGND
-}
-C {devices/iopin.sym} 110 -730 2 0 {name=p6 lab=VSUBS
-
 }
