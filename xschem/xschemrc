@@ -33,8 +33,7 @@ append XSCHEM_LIBRARY_PATH ${XSCHEM_SHAREDIR}/xschem_library
 append XSCHEM_LIBRARY_PATH :$env(PWD)
 # append XSCHEM_LIBRARY_PATH :/mnt/sda7/home/schippes/pdks/sky130A/libs.tech/xschem
 #### add ~/.xschem/xschem_library (USER_CONF_DIR is normally ~/.xschem)
-append XSCHEM_LIBRARY_PATH :$USER_CONF_DIR/xschem_library 
-
+append XSCHEM_LIBRARY_PATH :/ciic/tools/sak/common/skywater-pdk/open_pdks/sky130/sky130A/libs.tech/xschem
 ###########################################################################
 #### SET CUSTOM COLORS FOR XSCHEM LIBRARIES MATCHING CERTAIN PATTERNS
 ###########################################################################
@@ -60,7 +59,7 @@ set XSCHEM_START_WINDOW {sky130_tests/top.sch}
 #### DIRECTORY WHERE SIMULATIONS, NETLIST AND SIMULATOR OUTPUTS ARE PLACED
 ###########################################################################
 #### If unset $USER_CONF_DIR/simulations is assumed (normally ~/.xschem/simulations) 
-set netlist_dir /scratch/users/lyt1314/bgr_editor/netgen
+set netlist_dir ../netgen
 
 ###########################################################################
 #### NETLIST AND HIERARCHICAL PRINT EXCLUDE PATTERNS

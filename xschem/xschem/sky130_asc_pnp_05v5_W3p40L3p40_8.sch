@@ -33,38 +33,17 @@ N 370 -600 370 -470 { lab=Base}
 N 260 -600 260 -470 { lab=Base}
 N 100 -560 200 -560 { lab=Emitter}
 N 100 -600 820 -600 { lab=Base}
-N 870 -370 970 -370 {}
-N 970 -630 970 -370 {}
-N 940 -630 970 -630 {}
-C {xschem_sky130/sky130_fd_pr/pnp_05v5.sym} 280 -470 0 0 {name=Q1
+N 870 -370 970 -370 {
+lab=Collector}
+N 970 -630 970 -370 {
+lab=Collector}
+N 940 -630 970 -630 {
+lab=Collector}
+C {sky130_fd_pr/pnp_05v5.sym} 280 -470 0 0 {name=Q1
 model=pnp_05v5_W3p40L3p40
 spiceprefix=X
 }
-C {xschem_sky130/sky130_fd_pr/pnp_05v5.sym} 390 -470 0 0 {name=Q2
-model=pnp_05v5_W3p40L3p40
-spiceprefix=X
-}
-C {xschem_sky130/sky130_fd_pr/pnp_05v5.sym} 480 -470 0 0 {name=Q3
-model=pnp_05v5_W3p40L3p40
-spiceprefix=X
-}
-C {xschem_sky130/sky130_fd_pr/pnp_05v5.sym} 180 -470 0 0 {name=Q4
-model=pnp_05v5_W3p40L3p40
-spiceprefix=X
-}
-C {xschem_sky130/sky130_fd_pr/pnp_05v5.sym} 650 -470 0 0 {name=Q5
-model=pnp_05v5_W3p40L3p40
-spiceprefix=X
-}
-C {xschem_sky130/sky130_fd_pr/pnp_05v5.sym} 760 -470 0 0 {name=Q6
-model=pnp_05v5_W3p40L3p40
-spiceprefix=X
-}
-C {xschem_sky130/sky130_fd_pr/pnp_05v5.sym} 850 -470 0 0 {name=Q7
-model=pnp_05v5_W3p40L3p40
-spiceprefix=X
-}
-C {xschem_sky130/sky130_fd_pr/pnp_05v5.sym} 550 -470 0 0 {name=Q8
+C {sky130_fd_pr/pnp_05v5.sym} 180 -470 0 0 {name=Q4
 model=pnp_05v5_W3p40L3p40
 spiceprefix=X
 }
@@ -73,3 +52,27 @@ C {devices/iopin.sym} 110 -560 2 0 {name=p2 lab=Emitter}
 C {devices/iopin.sym} 950 -630 2 0 {name=p3 lab=Collector}
 C {devices/iopin.sym} 110 -700 2 0 {name=p4 lab=VPWR}
 C {devices/iopin.sym} 110 -670 2 0 {name=p5 lab=VGND}
+C {sky130_fd_pr/pnp_05v5.sym} 390 -470 0 0 {name=Q2
+model=pnp_05v5_W3p40L3p40
+spiceprefix=X
+}
+C {sky130_fd_pr/pnp_05v5.sym} 480 -470 0 0 {name=Q3
+model=pnp_05v5_W3p40L3p40
+spiceprefix=X
+}
+C {sky130_fd_pr/pnp_05v5.sym} 550 -470 0 0 {name=Q5
+model=pnp_05v5_W3p40L3p40
+spiceprefix=X
+}
+C {sky130_fd_pr/pnp_05v5.sym} 650 -470 0 0 {name=Q6
+model=pnp_05v5_W3p40L3p40
+spiceprefix=X
+}
+C {sky130_fd_pr/pnp_05v5.sym} 760 -470 0 0 {name=Q7
+model=pnp_05v5_W3p40L3p40
+spiceprefix=X
+}
+C {sky130_fd_pr/pnp_05v5.sym} 850 -470 0 0 {name=Q8
+model=pnp_05v5_W3p40L3p40
+spiceprefix=X
+}
