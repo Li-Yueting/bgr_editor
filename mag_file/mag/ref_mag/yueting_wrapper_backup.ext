@@ -1,0 +1,246 @@
+timestamp 1654852362
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use nmos_flat nmos_flat_3 -1 0 563012 0 1 312172
+use pmos_flat pmos_flat_2 -1 0 577736 0 1 312242
+use bgr_top_flat bgr_top_flat_0 0 -1 542060 -1 0 414954
+use nmos_flat nmos_flat_0 -1 0 563258 0 1 492940
+use nmos_flat nmos_flat_1 1 0 563298 0 1 403798
+use nmos_flat nmos_flat_2 -1 0 563150 0 1 358480
+use pmos_flat pmos_flat_0 -1 0 577092 0 1 403838
+use pmos_flat pmos_flat_1 -1 0 577288 0 1 358410
+use pmos_flat pmos_flat_3 -1 0 577814 0 1 492714
+use user_analog_project_wrapper_empty user_analog_project_wrapper_empty_0 1 0 -24 0 1 -12
+node "m3_577256_677954#" 0 12196.2 577256 677954 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25936800 20372 0 0 0 0 0 0
+node "m3_566500_698354#" 0 12196.2 566500 698354 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25936800 20372 0 0 0 0 0 0
+node "m3_465296_698476#" 0 12196.2 465296 698476 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25936800 20372 0 0 0 0 0 0
+node "m3_413300_698232#" 0 12196.2 413300 698232 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25936800 20372 0 0 0 0 0 0
+node "m1_508352_356446#" 5 58049.7 508352 356446 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1048316 11144 127288 2508 22405947 237156 0 0 0 0 0 0
+node "m1_565760_357422#" 10 4270.49 565760 357422 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1160880 19588 0 0 0 0 0 0 0 0 0 0
+node "m1_566264_359786#" 5 30681.3 566264 359786 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 732424 9720 73668 1788 7801570 127686 0 0 0 0 0 0
+node "m1_561520_402738#" 14 5875.06 561520 402738 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1583760 26636 0 0 0 0 0 0 0 0 0 0
+node "m1_563520_404618#" 3 1185.88 563520 404618 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 290880 5088 0 0 0 0 0 0 0 0 0 0
+node "m1_566246_405258#" 5 28104.6 566246 405258 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 740804 10176 73880 1780 6508904 116216 0 0 0 0 0 0
+node "m1_565726_491484#" 11 4296.29 565726 491484 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1229760 20736 0 0 0 0 0 0 0 0 0 0
+node "VSSA1" 21 1.3011e+06 559642 311536 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3227416 44960 180808 3400 132197078 77538 4842094048 1291720 0 0 0 0
+node "m1_566034_492304#" 4 75205.3 566034 492304 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 917096 10256 87976 1684 20230388 325002 0 0 0 0 0 0
+node "VCCD1" 2 947891 560592 404618 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9258804 127676 433268 5260 153846382 88090 54913240 47788 3774191526 1470894 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_563520_404618#" "VCCD1" 67.0507
+cap "m1_508352_356446#" "VCCD1" 3718.43
+cap "m1_561520_402738#" "m1_566246_405258#" 25.2474
+cap "m1_565760_357422#" "VCCD1" 1060.24
+cap "m1_566246_405258#" "VSSA1" 5404.22
+cap "m1_563520_404618#" "m1_566246_405258#" 14.2839
+cap "m1_566246_405258#" "VCCD1" 2596.5
+cap "m1_565726_491484#" "m1_566034_492304#" 19.5043
+cap "m1_565726_491484#" "VCCD1" 1118.61
+cap "m1_566264_359786#" "VSSA1" 5509.89
+cap "m1_566264_359786#" "VCCD1" 2690.1
+cap "m1_566034_492304#" "VSSA1" 5623.72
+cap "m1_561520_402738#" "VSSA1" 6.56973
+cap "m1_561520_402738#" "VCCD1" 1233.5
+cap "m1_566034_492304#" "VCCD1" 3332.31
+cap "m1_566264_359786#" "m1_565760_357422#" 13.4471
+cap "VSSA1" "VCCD1" 79538.3
+cap "m1_508352_356446#" "VSSA1" 6573.94
+cap "nmos_flat_3/GATE" "nmos_flat_3/DRAIN" -1.77636e-15
+cap "nmos_flat_3/DRAIN" "nmos_flat_3/GATE" -1.13687e-13
+cap "nmos_flat_3/DRAIN" "nmos_flat_3/VGND" 15.4088
+cap "nmos_flat_3/VGND" "VCCD1" -4.31956
+cap "pmos_flat_2/VGND" "pmos_flat_2/GATE" -0.10406
+cap "pmos_flat_2/GATE" "pmos_flat_2/VGND" 0.329464
+cap "nmos_flat_3/DRAIN" "nmos_flat_3/GATE" -1.42109e-14
+cap "nmos_flat_3/a_2551_n500#" "nmos_flat_3/GATE" -5.68434e-14
+cap "nmos_flat_3/DRAIN" "nmos_flat_3/GATE" -4.54747e-13
+cap "nmos_flat_3/DRAIN" "nmos_flat_3/VGND" 15.4088
+cap "nmos_flat_3/DRAIN" "nmos_flat_3/GATE" 76.6271
+cap "nmos_flat_3/DRAIN" "nmos_flat_3/GATE" 35.9115
+cap "pmos_flat_2/DRAIN" "pmos_flat_2/GATE" 13.841
+cap "pmos_flat_2/GATE" "pmos_flat_2/DRAIN" 13.923
+cap "pmos_flat_2/GATE" "pmos_flat_2/VGND" 0.329464
+cap "pmos_flat_2/DRAIN" "pmos_flat_2/GATE" 42.8245
+cap "pmos_flat_2/GATE" "pmos_flat_2/DRAIN" 42.8245
+cap "pmos_flat_2/DRAIN" "pmos_flat_2/a_n2609_n500#" 88.4892
+cap "nmos_flat_3/VPWR" "nmos_flat_3/DRAIN" 0.826119
+cap "nmos_flat_3/DRAIN" "nmos_flat_3/VPWR" 0.0914075
+cap "nmos_flat_3/VPWR" "nmos_flat_3/DRAIN" 3.55271e-15
+cap "pmos_flat_2/DRAIN" "pmos_flat_2/GATE" -1.77636e-15
+cap "pmos_flat_2/VPWR" "pmos_flat_2/DRAIN" 1.90862
+cap "pmos_flat_2/DRAIN" "pmos_flat_2/VPWR" 15.9281
+cap "user_analog_project_wrapper_empty_0/gpio_noesd[1]" "user_analog_project_wrapper_empty_0/gpio_analog[1]" 0.108741
+cap "user_analog_project_wrapper_empty_0/gpio_noesd[1]" "user_analog_project_wrapper_empty_0/gpio_analog[1]" 0.108741
+cap "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VGND" "VCCD1" -582.98
+cap "VCCD1" "VSSA1" -195.519
+cap "nmos_flat_2/DRAIN" "nmos_flat_2/VGND" 10.5163
+cap "nmos_flat_2/VGND" "VCCD1" -3.78503
+cap "nmos_flat_2/VGND" "nmos_flat_2/DRAIN" 2.82459
+cap "pmos_flat_1/GATE" "pmos_flat_1/VGND" 6.76694
+cap "pmos_flat_1/DRAIN" "pmos_flat_1/VGND" 1.24809
+cap "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VPWR" "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VGND" -3218.68
+cap "VSSA1" "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VPWR" -2007.57
+cap "nmos_flat_2/GATE" "nmos_flat_2/DRAIN" -1.33227e-15
+cap "nmos_flat_2/GATE" "nmos_flat_2/a_2551_n500#" 1.13687e-13
+cap "nmos_flat_2/GATE" "nmos_flat_2/DRAIN" 37.6405
+cap "nmos_flat_2/VGND" "nmos_flat_2/DRAIN" 10.5163
+cap "nmos_flat_2/DRAIN" "nmos_flat_2/VGND" 2.82459
+cap "nmos_flat_2/DRAIN" "nmos_flat_2/GATE" 37.6405
+cap "pmos_flat_1/DRAIN" "pmos_flat_1/GATE" 35.1218
+cap "pmos_flat_1/VGND" "pmos_flat_1/GATE" -50.2201
+cap "pmos_flat_1/DRAIN" "pmos_flat_1/VGND" 1.24809
+cap "pmos_flat_1/GATE" "pmos_flat_1/DRAIN" 35.4186
+cap "pmos_flat_1/a_n2609_n500#" "pmos_flat_1/DRAIN" 51.108
+cap "pmos_flat_1/GATE" "pmos_flat_1/DRAIN" 46.0616
+cap "pmos_flat_1/a_n2609_n500#" "pmos_flat_1/DRAIN" 51.108
+cap "pmos_flat_1/GATE" "pmos_flat_1/DRAIN" 46.0616
+cap "user_analog_project_wrapper_empty_0/gpio_analog[2]" "user_analog_project_wrapper_empty_0/gpio_noesd[2]" 0.0852266
+cap "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VGND" "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VPWR" -351.552
+cap "VSSA1" "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VPWR" -36.4116
+cap "nmos_flat_2/DRAIN" "nmos_flat_2/VPWR" 0.740964
+cap "nmos_flat_2/VPWR" "nmos_flat_2/DRAIN" -2.84217e-14
+cap "nmos_flat_2/VPWR" "nmos_flat_2/DRAIN" 7.10543e-15
+cap "pmos_flat_1/DRAIN" "pmos_flat_1/GATE" -7.10543e-15
+cap "pmos_flat_1/VPWR" "pmos_flat_1/DRAIN" 0.75
+cap "pmos_flat_1/DRAIN" "pmos_flat_1/VPWR" 9.97297
+cap "pmos_flat_1/DRAIN" "pmos_flat_1/VPWR" 9.97297
+cap "user_analog_project_wrapper_empty_0/gpio_analog[2]" "user_analog_project_wrapper_empty_0/gpio_noesd[2]" 0.0852266
+cap "bgr_top_flat_0/vbg" "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VGND" -6.64179
+cap "bgr_top_flat_0/porst" "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VGND" -7.0654
+cap "nmos_flat_1/VGND" "nmos_flat_1/GATE" 2.49936
+cap "nmos_flat_1/GATE" "nmos_flat_1/VGND" 2.49936
+cap "nmos_flat_1/GATE" "nmos_flat_1/VGND" 12.8664
+cap "nmos_flat_1/a_2551_n500#" "nmos_flat_1/GATE" 21.8473
+cap "nmos_flat_1/DRAIN" "nmos_flat_1/GATE" 14.443
+cap "VCCD1" "nmos_flat_1/VGND" -7.67143
+cap "nmos_flat_1/GATE" "nmos_flat_1/a_2551_n500#" 21.8473
+cap "nmos_flat_1/DRAIN" "nmos_flat_1/GATE" 14.443
+cap "nmos_flat_1/GATE" "nmos_flat_1/VGND" 9.46776
+cap "pmos_flat_0/GATE" "pmos_flat_0/VGND" 335.201
+cap "pmos_flat_0/GATE" "pmos_flat_0/VGND" 601.746
+cap "pmos_flat_0/DRAIN" "pmos_flat_0/GATE" 27.8561
+cap "pmos_flat_0/GATE" "pmos_flat_0/DRAIN" 6.54323
+cap "pmos_flat_0/GATE" "pmos_flat_0/DRAIN" 40.3625
+cap "pmos_flat_0/a_n2609_n500#" "pmos_flat_0/DRAIN" 43.5827
+cap "pmos_flat_0/GATE" "pmos_flat_0/DRAIN" 17.8503
+cap "pmos_flat_0/a_n2609_n500#" "pmos_flat_0/DRAIN" 17.2609
+cap "nmos_flat_1/VGND" "nmos_flat_1/GATE" -2.27374e-13
+cap "VCCD1" "nmos_flat_1/VPWR" 1.9916
+cap "nmos_flat_1/VPWR" "nmos_flat_1/GATE" -0.748985
+cap "nmos_flat_1/DRAIN" "nmos_flat_1/GATE" 17.6218
+cap "nmos_flat_1/GATE" "nmos_flat_1/VPWR" 4.17444e-14
+cap "nmos_flat_1/GATE" "nmos_flat_1/a_2551_n500#" 26.6558
+cap "nmos_flat_1/GATE" "nmos_flat_1/a_2551_n500#" 26.6558
+cap "nmos_flat_1/VGND" "nmos_flat_1/GATE" -4.12645
+cap "nmos_flat_1/DRAIN" "nmos_flat_1/GATE" 17.6218
+cap "pmos_flat_0/GATE" "pmos_flat_0/DRAIN" 32.4534
+cap "pmos_flat_0/DRAIN" "pmos_flat_0/GATE" 7.61253
+cap "pmos_flat_0/DRAIN" "pmos_flat_0/VPWR" 0.851538
+cap "pmos_flat_0/DRAIN" "pmos_flat_0/a_n2609_n500#" 53.2677
+cap "pmos_flat_0/DRAIN" "pmos_flat_0/GATE" 49.332
+cap "pmos_flat_0/DRAIN" "pmos_flat_0/VPWR" 18.2975
+cap "pmos_flat_0/DRAIN" "pmos_flat_0/GATE" 21.8171
+cap "pmos_flat_0/DRAIN" "pmos_flat_0/VPWR" 6.47368
+cap "pmos_flat_0/DRAIN" "pmos_flat_0/a_n2609_n500#" 21.0967
+cap "VCCD1" "nmos_flat_1/VPWR" 1.9916
+cap "user_analog_project_wrapper_empty_0/gpio_noesd[3]" "user_analog_project_wrapper_empty_0/gpio_analog[3]" 0.0741043
+cap "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VGND" "bgr_top_flat_0/VDD" -2717.26
+cap "bgr_top_flat_0/VSS" "bgr_top_flat_0/VDD" -1662.84
+cap "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VGND" "bgr_top_flat_0/VDD" -1217.26
+cap "bgr_top_flat_0/VSS" "bgr_top_flat_0/VDD" -631.59
+cap "nmos_flat_0/DRAIN" "nmos_flat_0/VGND" 0.331041
+cap "nmos_flat_0/DRAIN" "nmos_flat_0/VGND" 3.21557
+cap "VCCD1" "nmos_flat_0/VGND" -4.00516
+cap "pmos_flat_3/GATE" "pmos_flat_3/VGND" -0.698353
+cap "pmos_flat_3/DRAIN" "pmos_flat_3/VGND" 1.39131
+cap "pmos_flat_3/GATE" "pmos_flat_3/VGND" 3.25053
+cap "nmos_flat_0/a_2551_n500#" "nmos_flat_0/GATE" 1.42183
+cap "nmos_flat_0/GATE" "nmos_flat_0/DRAIN" 1.22172
+cap "nmos_flat_0/a_2551_n500#" "nmos_flat_0/GATE" 1.42183
+cap "nmos_flat_0/DRAIN" "nmos_flat_0/GATE" 1.22172
+cap "nmos_flat_0/GATE" "nmos_flat_0/DRAIN" 0.759107
+cap "nmos_flat_0/GATE" "nmos_flat_0/DRAIN" 50.1283
+cap "nmos_flat_0/DRAIN" "nmos_flat_0/VGND" 0.331041
+cap "nmos_flat_0/DRAIN" "nmos_flat_0/VGND" 3.21557
+cap "nmos_flat_0/DRAIN" "nmos_flat_0/GATE" 44.7771
+cap "pmos_flat_3/GATE" "pmos_flat_3/DRAIN" 13.0389
+cap "pmos_flat_3/GATE" "pmos_flat_3/VGND" -4.99688
+cap "pmos_flat_3/GATE" "pmos_flat_3/DRAIN" 13.2009
+cap "pmos_flat_3/DRAIN" "pmos_flat_3/VGND" 1.39131
+cap "pmos_flat_3/DRAIN" "pmos_flat_3/GATE" 41.8839
+cap "pmos_flat_3/a_n2609_n500#" "pmos_flat_3/DRAIN" 84.8276
+cap "pmos_flat_3/GATE" "pmos_flat_3/DRAIN" 41.8839
+cap "nmos_flat_0/VPWR" "nmos_flat_0/DRAIN" 0.779577
+cap "nmos_flat_0/DRAIN" "nmos_flat_0/VPWR" 4.97284
+cap "nmos_flat_0/GATE" "nmos_flat_0/DRAIN" 2.48298
+cap "nmos_flat_0/DRAIN" "nmos_flat_0/VPWR" 3.71679
+cap "nmos_flat_0/DRAIN" "nmos_flat_0/GATE" 2.48298
+cap "pmos_flat_3/DRAIN" "pmos_flat_3/GATE" 1.77636e-15
+cap "pmos_flat_3/VPWR" "pmos_flat_3/DRAIN" 1.63757
+cap "pmos_flat_3/VPWR" "pmos_flat_3/DRAIN" 14.9595
+cap "user_analog_project_wrapper_empty_0/gpio_noesd[5]" "user_analog_project_wrapper_empty_0/gpio_analog[5]" 0.0724051
+cap "nmos_flat_0/VPWR" "nmos_flat_0/DRAIN" 0.615912
+cap "pmos_flat_3/VPWR" "VCCD1" -0.0715093
+cap "user_analog_project_wrapper_empty_0/gpio_noesd[5]" "user_analog_project_wrapper_empty_0/gpio_analog[5]" 0.0724051
+merge "user_analog_project_wrapper_empty_0/vssa1" "nmos_flat_0/GATE" -146736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44000096 -67012 0 0 -17922376 -39328 -16290528 -130956 -3435448 -15124 0 0
+merge "nmos_flat_0/GATE" "pmos_flat_3/VSUBS"
+merge "pmos_flat_3/VSUBS" "pmos_flat_3/VGND"
+merge "pmos_flat_3/VGND" "nmos_flat_0/VGND"
+merge "nmos_flat_0/VGND" "m1_565726_491484#"
+merge "m1_565726_491484#" "bgr_top_flat_0/VSS"
+merge "bgr_top_flat_0/VSS" "pmos_flat_0/VSUBS"
+merge "pmos_flat_0/VSUBS" "pmos_flat_0/VGND"
+merge "pmos_flat_0/VGND" "nmos_flat_1/VGND"
+merge "nmos_flat_1/VGND" "m1_561520_402738#"
+merge "m1_561520_402738#" "nmos_flat_1/DRAIN"
+merge "nmos_flat_1/DRAIN" "nmos_flat_2/GATE"
+merge "nmos_flat_2/GATE" "pmos_flat_1/VSUBS"
+merge "pmos_flat_1/VSUBS" "pmos_flat_1/VGND"
+merge "pmos_flat_1/VGND" "nmos_flat_2/VGND"
+merge "nmos_flat_2/VGND" "m1_565760_357422#"
+merge "m1_565760_357422#" "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VGND"
+merge "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VGND" "pmos_flat_2/VGND"
+merge "pmos_flat_2/VGND" "pmos_flat_2/VSUBS"
+merge "pmos_flat_2/VSUBS" "nmos_flat_3/VGND"
+merge "nmos_flat_3/VGND" "user_analog_project_wrapper_empty_0/VSUBS"
+merge "user_analog_project_wrapper_empty_0/VSUBS" "VSUBS"
+merge "VSUBS" "nmos_flat_3/GATE"
+merge "nmos_flat_3/GATE" "VSSA1"
+merge "user_analog_project_wrapper_empty_0/io_analog[0]" "m3_577256_677954#" 420.833 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4750400 -11632 0 0 0 0 0 0
+merge "user_analog_project_wrapper_empty_0/vccd1" "nmos_flat_0/VPWR" -163756 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -26313824 -69158 -5177608 0 -31313654 -40674 -9854117 0 -121692520 -237476 0 0
+merge "nmos_flat_0/VPWR" "pmos_flat_3/VPWR"
+merge "pmos_flat_3/VPWR" "pmos_flat_3/GATE"
+merge "pmos_flat_3/GATE" "bgr_top_flat_0/VDD"
+merge "bgr_top_flat_0/VDD" "pmos_flat_0/VPWR"
+merge "pmos_flat_0/VPWR" "nmos_flat_1/VPWR"
+merge "nmos_flat_1/VPWR" "m1_563520_404618#"
+merge "m1_563520_404618#" "pmos_flat_0/GATE"
+merge "pmos_flat_0/GATE" "pmos_flat_1/VPWR"
+merge "pmos_flat_1/VPWR" "nmos_flat_2/VPWR"
+merge "nmos_flat_2/VPWR" "pmos_flat_1/GATE"
+merge "pmos_flat_1/GATE" "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VPWR"
+merge "bgr_top_flat_0/sky130_asc_pfet_01v8_lvt_60_2/VPWR" "pmos_flat_2/VPWR"
+merge "pmos_flat_2/VPWR" "nmos_flat_3/VPWR"
+merge "nmos_flat_3/VPWR" "pmos_flat_2/GATE"
+merge "pmos_flat_2/GATE" "VCCD1"
+merge "user_analog_project_wrapper_empty_0/io_analog[2]" "m3_465296_698476#" -6142.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7842000 -12476 0 0 0 0 0 0
+merge "user_analog_project_wrapper_empty_0/gpio_analog[3]" "pmos_flat_0/DRAIN" -22909.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21452208 -5904 -9819364 -744 54607768 -72812 0 0 0 0 0 0
+merge "pmos_flat_0/DRAIN" "nmos_flat_1/GATE"
+merge "nmos_flat_1/GATE" "bgr_top_flat_0/porst"
+merge "bgr_top_flat_0/porst" "m1_566246_405258#"
+merge "user_analog_project_wrapper_empty_0/gpio_analog[5]" "nmos_flat_0/DRAIN" -28228.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -13485416 -10440 -10824928 -1684 18179076 -55018 0 0 0 0 0 0
+merge "nmos_flat_0/DRAIN" "pmos_flat_3/DRAIN"
+merge "pmos_flat_3/DRAIN" "bgr_top_flat_0/va"
+merge "bgr_top_flat_0/va" "m1_566034_492304#"
+merge "bgr_top_flat_0/vb" "user_analog_project_wrapper_empty_0/gpio_analog[1]" -25103.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21158464 -6824 -4667264 -748 21669976 -45788 0 0 0 0 0 0
+merge "user_analog_project_wrapper_empty_0/gpio_analog[1]" "pmos_flat_2/DRAIN"
+merge "pmos_flat_2/DRAIN" "nmos_flat_3/DRAIN"
+merge "nmos_flat_3/DRAIN" "m1_508352_356446#"
+merge "bgr_top_flat_0/vbg" "user_analog_project_wrapper_empty_0/gpio_analog[2]" -29232.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -13375972 -5504 -5394144 -752 27627508 -89092 0 0 0 0 0 0
+merge "user_analog_project_wrapper_empty_0/gpio_analog[2]" "nmos_flat_2/DRAIN"
+merge "nmos_flat_2/DRAIN" "pmos_flat_1/DRAIN"
+merge "pmos_flat_1/DRAIN" "m1_566264_359786#"
+merge "user_analog_project_wrapper_empty_0/io_analog[1]" "m3_566500_698354#" -5367.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5554560 -12232 0 0 0 0 0 0
+merge "user_analog_project_wrapper_empty_0/io_analog[3]" "m3_413300_698232#" -4086.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4004000 -11988 0 0 0 0 0 0

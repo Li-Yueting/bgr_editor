@@ -1,0 +1,42 @@
+timestamp 1654850744
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__pfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+node "VGND" 1155 3819.4 -2742 -1030 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 323160 10892 646320 11012 0 0 0 0 0 0 0 0 0 0
+node "DRAIN" 42690 1214.97 -2093 -500 pdif 0 0 0 0 0 0 0 0 0 0 580000 21160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 724272 33844 484564 21600 0 0 0 0 0 0 0 0 0 0
+node "a_n2609_n500#" 3780 0 -2609 -500 pdif 0 0 0 0 0 0 0 0 0 0 58000 2116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34340 2088 46000 2092 0 0 0 0 0 0 0 0 0 0
+node "GATE" 37715 6703.3 -2644 -872 p 0 0 0 0 0 0 0 0 0 0 580000 21160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5327200 65896 0 0 1150500 48432 491488 21668 0 0 0 0 0 0 0 0 0 0
+node "VPWR" 6890 25438.3 -2742 -562 nw 0 0 0 0 8090896 13778 0 0 19200 1280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 374160 11792 646320 11012 0 0 0 0 0 0 0 0 0 0
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_n2609_n500#" "DRAIN" 253.867
+cap "GATE" "DRAIN" 11164.3
+cap "a_n2609_n500#" "VPWR" 18.6894
+cap "VGND" "a_n2609_n500#" 5.90945
+cap "GATE" "VPWR" 7645.39
+cap "VPWR" "DRAIN" 411.156
+cap "VGND" "GATE" 1313.79
+cap "VGND" "DRAIN" 581.015
+cap "GATE" "a_n2609_n500#" 447.852
+device msubckt sky130_fd_pr__pfet_01v8_lvt 2351 -500 2352 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "GATE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 2093 -500 2094 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "DRAIN" 1000 0 "GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1835 -500 1836 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "GATE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1577 -500 1578 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "DRAIN" 1000 0 "GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1319 -500 1320 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "GATE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1061 -500 1062 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "DRAIN" 1000 0 "GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 803 -500 804 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "GATE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 545 -500 546 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "DRAIN" 1000 0 "GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 287 -500 288 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "GATE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 29 -500 30 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "DRAIN" 1000 0 "GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt -229 -500 -228 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "GATE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt -487 -500 -486 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "DRAIN" 1000 0 "GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt -745 -500 -744 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "GATE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt -1003 -500 -1002 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "DRAIN" 1000 0 "GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt -1261 -500 -1260 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "GATE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt -1519 -500 -1518 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "DRAIN" 1000 0 "GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt -1777 -500 -1776 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "GATE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt -2035 -500 -2034 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "DRAIN" 1000 0 "GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt -2293 -500 -2292 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "GATE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt -2551 -500 -2550 -499 l=200 w=1000 "VPWR" "GATE" 400 0 "a_n2609_n500#" 1000 0 "GATE" 1000 0

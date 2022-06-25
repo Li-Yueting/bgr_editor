@@ -1,0 +1,333 @@
+timestamp 1654901230
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use bgr_final bgr_final_0 0 -1 542076 -1 0 414984
+parameters sky130_fd_pr__pfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__nfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+port "vb" 45 509080 356408 509232 356604 m3
+port "pmos_flat_2/DRAIN" 11 575092 311552 575152 311612 li
+port "nmos_flat_3/DRAIN" 6 560404 311542 560464 311602 li
+port "vbg" 44 542312 380502 542482 380694 m3
+port "pmos_flat_1/DRAIN" 36 574644 357720 574704 357780 li
+port "nmos_flat_2/DRAIN" 26 560542 357850 560602 357910 li
+port "porst" 43 542190 389424 542276 389532 m3
+port "pmos_flat_0/DRAIN" 31 574448 403148 574508 403208 li
+port "nmos_flat_1/DRAIN" 21 560586 403168 560646 403228 li
+port "va" 46 501182 414866 501286 414982 m3
+port "pmos_flat_3/DRAIN" 41 575170 492024 575230 492084 li
+port "nmos_flat_0/DRAIN" 16 560650 492310 560710 492370 li
+port "pmos_flat_3/GATE" 42 575170 491862 575230 491922 li
+port "pmos_flat_3/SOURCE" 40 575170 493404 575230 493444 li
+port "pmos_flat_3/VPWR" 38 580496 493564 580556 493624 nw
+port "pmos_flat_1/GATE" 37 574644 357558 574704 357618 li
+port "pmos_flat_1/SOURCE" 35 574644 359100 574704 359140 li
+port "pmos_flat_1/VPWR" 33 579970 359260 580030 359320 nw
+port "pmos_flat_0/GATE" 32 574448 402986 574508 403046 li
+port "pmos_flat_0/SOURCE" 30 574448 404528 574508 404568 li
+port "pmos_flat_0/VPWR" 28 579774 404688 579834 404748 nw
+port "nmos_flat_2/VPWR" 23 565698 359330 565758 359390 m1
+port "nmos_flat_1/VPWR" 18 565742 404648 565802 404708 m1
+port "nmos_flat_0/VPWR" 13 565806 493790 565866 493850 m1
+port "pmos_flat_2/GATE" 12 575092 311390 575152 311450 li
+port "pmos_flat_2/SOURCE" 10 575092 312932 575152 312972 li
+port "pmos_flat_2/VPWR" 8 580418 313092 580478 313152 nw
+port "nmos_flat_3/VPWR" 3 565560 313022 565620 313082 m1
+port "VCCD1" 2 574704 639800 581232 644606 m3
+port "pmos_flat_3/VGND" 39 580398 491684 580556 491744 m1
+port "pmos_flat_1/VGND" 34 579872 357380 580030 357440 m1
+port "pmos_flat_0/VGND" 29 579676 402808 579834 402868 m1
+port "nmos_flat_2/GATE" 27 560542 357684 560602 357744 li
+port "nmos_flat_2/SOURCE" 25 560542 359170 560602 359230 li
+port "nmos_flat_2/VGND" 24 565698 357450 565758 357510 m1
+port "nmos_flat_1/GATE" 22 560586 403002 560646 403062 li
+port "nmos_flat_1/SOURCE" 20 560586 404488 560646 404548 li
+port "nmos_flat_1/VGND" 19 565742 402768 565802 402828 m1
+port "nmos_flat_0/GATE" 17 560650 492144 560710 492204 li
+port "nmos_flat_0/SOURCE" 15 560650 493630 560710 493690 li
+port "nmos_flat_0/VGND" 14 565806 491910 565866 491970 m1
+port "pmos_flat_2/VGND" 9 580320 311212 580478 311272 m1
+port "nmos_flat_3/GATE" 7 560404 311376 560464 311436 li
+port "nmos_flat_3/SOURCE" 5 560404 312862 560464 312922 li
+port "nmos_flat_3/VGND" 4 565560 311142 565620 311202 m1
+port "VSSA1" 1 510596 697782 515352 701406 m3
+node "a_580287_311742#" 3780 5.90945 580287 311742 pdif 0 0 0 0 0 0 0 0 0 0 58000 2116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34340 2088 46000 2092 0 0 0 0 0 0 0 0 0 0
+node "a_560403_311672#" 2451 638.227 560403 311672 ndif 0 0 0 0 0 0 0 0 58000 2116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34272 2084 46000 2092 0 0 0 0 0 0 0 0 0 0
+node "vb" 60563 77945.6 509080 356408 m3 0 0 0 0 0 0 0 0 580000 21160 580000 21160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1446882 66636 2013184 53636 109792 2296 22353835 236700 0 0 0 0 0 0
+equiv "vb" "pmos_flat_2/DRAIN"
+equiv "vb" "nmos_flat_3/DRAIN"
+node "a_579839_357910#" 3780 5.90945 579839 357910 pdif 0 0 0 0 0 0 0 0 0 0 58000 2116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34340 2088 46000 2092 0 0 0 0 0 0 0 0 0 0
+node "vbg" 60563 49743.1 542312 380502 m3 0 0 0 0 0 0 0 0 580000 21160 580000 21160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1446882 66636 1713532 52464 82760 1940 7800378 127674 0 0 0 0 0 0
+equiv "vbg" "pmos_flat_1/DRAIN"
+equiv "vbg" "nmos_flat_2/DRAIN"
+node "a_560541_357980#" 2451 638.312 560541 357980 ndif 0 0 0 0 0 0 0 0 58000 2116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34272 2084 46000 2092 0 0 0 0 0 0 0 0 0 0
+node "a_579643_403338#" 3780 5.90945 579643 403338 pdif 0 0 0 0 0 0 0 0 0 0 58000 2116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34340 2088 46000 2092 0 0 0 0 0 0 0 0 0 0
+node "porst" 60563 46960.3 542190 389424 m3 0 0 0 0 0 0 0 0 580000 21160 580000 21160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1446882 66636 1713032 52800 74012 1784 6499048 116040 0 0 0 0 0 0
+equiv "porst" "pmos_flat_0/DRAIN"
+equiv "porst" "nmos_flat_1/DRAIN"
+node "a_560585_403298#" 2451 647.791 560585 403298 ndif 0 0 0 0 0 0 0 0 58000 2116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34272 2084 46000 2092 0 0 0 0 0 0 0 0 0 0
+node "a_580365_492214#" 3780 5.90945 580365 492214 pdif 0 0 0 0 0 0 0 0 0 0 58000 2116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34340 2088 46000 2092 0 0 0 0 0 0 0 0 0 0
+node "va" 60562 94235.5 501182 414866 m3 0 0 0 0 0 0 0 0 580000 21160 580000 21160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1446882 66636 1868900 52604 87976 1684 20168344 325062 0 0 0 0 0 0
+equiv "va" "pmos_flat_3/DRAIN"
+equiv "va" "nmos_flat_0/DRAIN"
+node "a_560649_492440#" 2451 645.131 560649 492440 ndif 0 0 0 0 0 0 0 0 58000 2116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34272 2084 46000 2092 0 0 0 0 0 0 0 0 0 0
+node "pmos_flat_3/GATE" 11217 1.16169e+06 575170 491862 li 0 0 0 0 32363584 55112 0 0 76800 5120 2320000 84640 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21308800 263584 0 0 7374000 283888 16101040 294344 433268 5260 153846382 88090 54913240 47788 3722923878 1408066 0 0
+equiv "pmos_flat_3/GATE" "pmos_flat_3/SOURCE"
+equiv "pmos_flat_3/GATE" "pmos_flat_3/VPWR"
+equiv "pmos_flat_3/GATE" "pmos_flat_1/GATE"
+equiv "pmos_flat_3/GATE" "pmos_flat_1/SOURCE"
+equiv "pmos_flat_3/GATE" "pmos_flat_1/VPWR"
+equiv "pmos_flat_3/GATE" "pmos_flat_0/GATE"
+equiv "pmos_flat_3/GATE" "pmos_flat_0/SOURCE"
+equiv "pmos_flat_3/GATE" "pmos_flat_0/VPWR"
+equiv "pmos_flat_3/GATE" "nmos_flat_2/VPWR"
+equiv "pmos_flat_3/GATE" "nmos_flat_1/VPWR"
+equiv "pmos_flat_3/GATE" "nmos_flat_0/VPWR"
+equiv "pmos_flat_3/GATE" "pmos_flat_2/GATE"
+equiv "pmos_flat_3/GATE" "pmos_flat_2/SOURCE"
+equiv "pmos_flat_3/GATE" "pmos_flat_2/VPWR"
+equiv "pmos_flat_3/GATE" "nmos_flat_3/VPWR"
+equiv "pmos_flat_3/GATE" "VCCD1"
+substrate "pmos_flat_3/VGND" 0 0 580398 491684 m1 0 0 0 0 0 0 0 0 2320000 84640 91200 5360 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20710400 253408 0 0 7667392 285744 13231536 259748 180808 3400 132197078 77538 4814937568 1258440 0 0 0 0
+equiv "pmos_flat_3/VGND" "pmos_flat_1/VGND"
+equiv "pmos_flat_3/VGND" "pmos_flat_0/VGND"
+equiv "pmos_flat_3/VGND" "nmos_flat_2/GATE"
+equiv "pmos_flat_3/VGND" "nmos_flat_2/SOURCE"
+equiv "pmos_flat_3/VGND" "nmos_flat_2/VGND"
+equiv "pmos_flat_3/VGND" "nmos_flat_1/GATE"
+equiv "pmos_flat_3/VGND" "nmos_flat_1/SOURCE"
+equiv "pmos_flat_3/VGND" "nmos_flat_1/VGND"
+equiv "pmos_flat_3/VGND" "nmos_flat_0/GATE"
+equiv "pmos_flat_3/VGND" "nmos_flat_0/SOURCE"
+equiv "pmos_flat_3/VGND" "nmos_flat_0/VGND"
+equiv "pmos_flat_3/VGND" "pmos_flat_2/VGND"
+equiv "pmos_flat_3/VGND" "nmos_flat_3/GATE"
+equiv "pmos_flat_3/VGND" "nmos_flat_3/SOURCE"
+equiv "pmos_flat_3/VGND" "nmos_flat_3/VGND"
+equiv "pmos_flat_3/VGND" "VSSA1"
+cap "pmos_flat_3/GATE" "vbg" 14307.3
+cap "pmos_flat_3/GATE" "vb" 15283
+cap "a_580365_492214#" "va" 338.695
+cap "a_580287_311742#" "pmos_flat_3/GATE" 465.311
+cap "a_579839_357910#" "vbg" 356.083
+cap "pmos_flat_3/GATE" "a_560649_492440#" 8.05582
+cap "a_580287_311742#" "vb" 342.356
+cap "pmos_flat_3/GATE" "va" 14900.7
+cap "pmos_flat_3/GATE" "a_560403_311672#" 8.05582
+cap "a_580365_492214#" "pmos_flat_3/GATE" 465.311
+cap "porst" "a_579643_403338#" 350.717
+cap "a_560403_311672#" "vb" 260.405
+cap "a_579643_403338#" "pmos_flat_3/GATE" 465.394
+cap "porst" "pmos_flat_3/GATE" 14229.1
+cap "a_560649_492440#" "va" 260.405
+cap "porst" "a_560585_403298#" 260.405
+cap "pmos_flat_3/GATE" "a_560541_357980#" 8.05582
+cap "pmos_flat_3/GATE" "a_560585_403298#" 8.05582
+cap "vbg" "a_560541_357980#" 260.405
+cap "a_579839_357910#" "pmos_flat_3/GATE" 465.311
+device msubckt sky130_fd_pr__pfet_01v8_lvt 580087 311742 580088 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "a_580287_311742#" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579829 311742 579830 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vb" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579571 311742 579572 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579313 311742 579314 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vb" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579055 311742 579056 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578797 311742 578798 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vb" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578539 311742 578540 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578281 311742 578282 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vb" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578023 311742 578024 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577765 311742 577766 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vb" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577507 311742 577508 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577249 311742 577250 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vb" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576991 311742 576992 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576733 311742 576734 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vb" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576475 311742 576476 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576217 311742 576218 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vb" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575959 311742 575960 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575701 311742 575702 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vb" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575443 311742 575444 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575185 311742 575186 311743 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vb" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 565363 311672 565364 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 565105 311672 565106 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vb" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564847 311672 564848 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564589 311672 564590 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vb" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564331 311672 564332 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564073 311672 564074 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vb" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563815 311672 563816 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563557 311672 563558 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vb" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563299 311672 563300 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563041 311672 563042 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vb" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562783 311672 562784 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562525 311672 562526 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vb" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562267 311672 562268 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562009 311672 562010 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vb" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561751 311672 561752 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561493 311672 561494 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vb" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561235 311672 561236 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 560977 311672 560978 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vb" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 560719 311672 560720 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vb" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 560461 311672 560462 311673 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "a_560403_311672#" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579639 357910 579640 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "a_579839_357910#" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579381 357910 579382 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vbg" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579123 357910 579124 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578865 357910 578866 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vbg" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578607 357910 578608 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578349 357910 578350 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vbg" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578091 357910 578092 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577833 357910 577834 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vbg" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577575 357910 577576 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577317 357910 577318 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vbg" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577059 357910 577060 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576801 357910 576802 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vbg" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576543 357910 576544 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576285 357910 576286 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vbg" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576027 357910 576028 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575769 357910 575770 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vbg" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575511 357910 575512 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575253 357910 575254 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vbg" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 574995 357910 574996 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 574737 357910 574738 357911 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "vbg" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 565501 357980 565502 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 565243 357980 565244 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vbg" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564985 357980 564986 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564727 357980 564728 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vbg" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564469 357980 564470 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564211 357980 564212 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vbg" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563953 357980 563954 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563695 357980 563696 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vbg" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563437 357980 563438 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563179 357980 563180 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vbg" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562921 357980 562922 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562663 357980 562664 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vbg" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562405 357980 562406 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562147 357980 562148 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vbg" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561889 357980 561890 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561631 357980 561632 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vbg" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561373 357980 561374 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561115 357980 561116 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "vbg" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 560857 357980 560858 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "vbg" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 560599 357980 560600 357981 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "a_560541_357980#" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579443 403338 579444 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "a_579643_403338#" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579185 403338 579186 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "porst" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578927 403338 578928 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578669 403338 578670 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "porst" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578411 403338 578412 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578153 403338 578154 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "porst" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577895 403338 577896 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577637 403338 577638 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "porst" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577379 403338 577380 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577121 403338 577122 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "porst" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576863 403338 576864 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576605 403338 576606 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "porst" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576347 403338 576348 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576089 403338 576090 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "porst" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575831 403338 575832 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575573 403338 575574 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "porst" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575315 403338 575316 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575057 403338 575058 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "porst" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 574799 403338 574800 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 574541 403338 574542 403339 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "porst" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 565545 403298 565546 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 565287 403298 565288 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "porst" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 565029 403298 565030 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564771 403298 564772 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "porst" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564513 403298 564514 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564255 403298 564256 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "porst" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563997 403298 563998 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563739 403298 563740 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "porst" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563481 403298 563482 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563223 403298 563224 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "porst" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562965 403298 562966 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562707 403298 562708 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "porst" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562449 403298 562450 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562191 403298 562192 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "porst" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561933 403298 561934 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561675 403298 561676 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "porst" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561417 403298 561418 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561159 403298 561160 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "porst" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 560901 403298 560902 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "porst" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 560643 403298 560644 403299 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "a_560585_403298#" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 580165 492214 580166 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "a_580365_492214#" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579907 492214 579908 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "va" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579649 492214 579650 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579391 492214 579392 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "va" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579133 492214 579134 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578875 492214 578876 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "va" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578617 492214 578618 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578359 492214 578360 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "va" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 578101 492214 578102 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577843 492214 577844 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "va" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577585 492214 577586 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577327 492214 577328 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "va" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 577069 492214 577070 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576811 492214 576812 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "va" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576553 492214 576554 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576295 492214 576296 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "va" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 576037 492214 576038 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575779 492214 575780 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "va" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575521 492214 575522 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "pmos_flat_3/GATE" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 575263 492214 575264 492215 l=200 w=1000 "pmos_flat_3/GATE" "pmos_flat_3/GATE" 400 0 "va" 1000 0 "pmos_flat_3/GATE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 565609 492440 565610 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 565351 492440 565352 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "va" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 565093 492440 565094 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564835 492440 564836 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "va" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564577 492440 564578 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564319 492440 564320 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "va" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 564061 492440 564062 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563803 492440 563804 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "va" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563545 492440 563546 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563287 492440 563288 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "va" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 563029 492440 563030 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562771 492440 562772 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "va" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562513 492440 562514 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 562255 492440 562256 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "va" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561997 492440 561998 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561739 492440 561740 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "va" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561481 492440 561482 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 561223 492440 561224 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "va" 1000 0 "pmos_flat_3/VGND" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 560965 492440 560966 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "pmos_flat_3/VGND" 1000 0 "va" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 560707 492440 560708 492441 l=200 w=1000 "pmos_flat_3/VGND" "pmos_flat_3/VGND" 400 0 "a_560649_492440#" 1000 0 "pmos_flat_3/VGND" 1000 0
+cap "bgr_final_0/m4_55904_0#" "pmos_flat_3/GATE" 1.06405
+cap "bgr_final_0/m1_900_50772#" "pmos_flat_3/GATE" 1.06405
+cap "bgr_final_0/m4_53456_0#" "bgr_final_0/m4_55904_0#" 1.46729
+cap "bgr_final_0/m1_900_50772#" "bgr_final_0/m4_53456_0#" -262.251
+cap "bgr_final_0/m1_900_50772#" "bgr_final_0/m4_53456_0#" -198.436
+cap "bgr_final_0/VDD" "bgr_final_0/bgr_top_VIA2_1/m2_n816_n60#" -894.483
+cap "bgr_final_0/bgr_top_VIA2_1/m2_n816_n60#" "bgr_final_0/VDD" -4063.91
+cap "bgr_final_0/VDD" "pmos_flat_3/VGND" -270.327
+cap "bgr_final_0/VDD" "bgr_final_0/bgr_top_VIA2_1/m2_n816_n60#" 395.061
+cap "bgr_final_0/bgr_top_VIA2_1/m2_n816_n60#" "bgr_final_0/VDD" -1331.52
+cap "bgr_final_0/VDD" "pmos_flat_3/VGND" 356.547
+cap "bgr_final_0/VDD" "bgr_final_0/m4_55904_0#" 0.921406
+cap "bgr_final_0/m4_900_0#" "bgr_final_0/m4_3348_0#" 0.614874
+cap "bgr_final_0/m1_900_50772#" "bgr_final_0/m4_3348_0#" 0.907879
+cap "pmos_flat_3/VGND" "bgr_final_0/VDD" -2.90445
+cap "pmos_flat_3/VGND" "bgr_final_0/m4_3348_0#" 0.794791
+cap "bgr_final_0/m4_900_0#" "bgr_final_0/m4_3348_0#" 1.63162
+cap "bgr_final_0/m1_900_50772#" "bgr_final_0/m4_3348_0#" 26.0953
+cap "bgr_final_0/m1_900_50772#" "bgr_final_0/m4_3348_0#" -159.014
+cap "bgr_final_0/m1_900_5652#" "bgr_final_0/VDD" -613.016
+cap "bgr_final_0/m1_900_5652#" "bgr_final_0/VDD" -136.609
+cap "bgr_final_0/VSS" "bgr_final_0/VDD" -325.422
+cap "bgr_final_0/VSS" "bgr_final_0/VDD" 1.50127
+cap "bgr_final_0/VSS" "bgr_final_0/m4_3348_0#" 0.794791
+cap "bgr_final_0/m4_900_0#" "pmos_flat_3/GATE" 1.63162
+cap "bgr_final_0/m1_900_50772#" "bgr_final_0/m5_0_51648#" 21.7817
+cap "bgr_final_0/m1_900_50772#" "bgr_final_0/m5_0_51648#" -119.261
+cap "bgr_final_0/VDD" "bgr_final_0/m1_900_5652#" 22.8635
+cap "bgr_final_0/VDD" "bgr_final_0/m1_900_5652#" -125.886
+cap "bgr_final_0/VSS" "bgr_final_0/VDD" -13.2512
+cap "bgr_final_0/m4_900_0#" "pmos_flat_3/GATE" 0.231923
+cap "bgr_final_0/m1_900_50772#" "bgr_final_0/m5_0_51648#" 0.231923
+merge "bgr_final_0/VSS" "bgr_final_0/m4_900_0#" -9505.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10646607 -31250 -3219716 -11588 0 0
+merge "bgr_final_0/m4_900_0#" "bgr_final_0/bgr_top_VIA2_1/m2_n816_n60#"
+merge "bgr_final_0/bgr_top_VIA2_1/m2_n816_n60#" "bgr_final_0/m4_55904_0#"
+merge "bgr_final_0/m4_55904_0#" "bgr_final_0/VSUBS"
+merge "bgr_final_0/VSUBS" "pmos_flat_3/VGND"
+merge "bgr_final_0/m4_3348_0#" "bgr_final_0/VDD" -7531.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3498152 -41228 0 0
+merge "bgr_final_0/VDD" "bgr_final_0/m5_0_51648#"
+merge "bgr_final_0/m5_0_51648#" "pmos_flat_3/GATE"
+merge "bgr_final_0/porst" "porst" 3617.17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2100957 -280 33246952 -27900 0 0 0 0 0 0
+merge "bgr_final_0/va" "va" -135.117 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -113504 -488 0 0 0 0 0 0
+merge "bgr_final_0/vb" "vb" -1121.79 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1371776 -402 0 0 -476098 0 0 0 0 0 0 0
+merge "bgr_final_0/vbg" "vbg" -123.254 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 303184 -292 -615524 0 0 0 0 0 0 0
