@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1656302548
+timestamp 1656304420
 << locali >>
 rect 560520 582856 560827 582916
 rect 560520 581430 560580 582856
@@ -2721,11 +2721,11 @@ timestamp 1656205651
 transform 0 1 -129800 -1 0 972356
 box 422960 603262 497922 669400
 use bgr_gen7  bgr_gen7_0 bgr
-timestamp 1656213424
+timestamp 1656304247
 transform 0 -1 541413 -1 0 363861
 box -205 -1505 55275 53897
-use bgr_top  bgr_top_0 bgr
-timestamp 1655819483
+use gen_0  gen_0_0
+timestamp 1656304247
 transform 0 1 483840 -1 0 455714
 box 0 0 58512 56576
 use nmos_flat  nmos_flat_0
