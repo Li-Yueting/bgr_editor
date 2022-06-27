@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1655817211
+timestamp 1656304247
 << pwell >>
 rect 120 1457 10840 1610
 rect 120 423 273 1457
@@ -1479,9 +1479,8 @@ rect 10713 446 10814 502
 rect 10713 412 10747 446
 rect 10781 412 10814 446
 rect 10713 397 10814 412
-rect 146 368 10814 397
-rect 140 362 10836 368
-rect 140 328 276 362
+rect 146 362 10814 397
+rect 146 328 276 362
 rect 310 328 366 362
 rect 400 328 456 362
 rect 490 328 546 362
@@ -1577,30 +1576,8 @@ rect 10320 328 10376 362
 rect 10410 328 10466 362
 rect 10500 328 10556 362
 rect 10590 328 10646 362
-rect 10680 328 10836 362
-rect 140 246 10836 328
-rect 140 238 6046 246
-rect 140 232 4854 238
-rect 140 224 2608 232
-rect 140 146 284 224
-rect 1144 146 1408 224
-rect 2268 154 2608 224
-rect 3468 154 3744 232
-rect 4604 160 4854 232
-rect 5714 168 6046 238
-rect 6906 168 7176 246
-rect 8036 236 10836 246
-rect 8036 228 9136 236
-rect 8036 168 8340 228
-rect 5714 160 8340 168
-rect 8944 160 9136 228
-rect 4604 154 9136 160
-rect 9626 234 10836 236
-rect 9626 166 9886 234
-rect 10582 166 10836 234
-rect 9626 154 10836 166
-rect 2268 146 10836 154
-rect 140 -34 10836 146
+rect 10680 328 10814 362
+rect 146 296 10814 328
 << nsubdiff >>
 rect 309 1402 1271 1421
 rect 309 1368 440 1402
@@ -2643,16 +2620,6 @@ rect 10376 328 10410 362
 rect 10466 328 10500 362
 rect 10556 328 10590 362
 rect 10646 328 10680 362
-rect 284 146 1144 224
-rect 1408 146 2268 224
-rect 2608 154 3468 232
-rect 3744 154 4604 232
-rect 4854 160 5714 238
-rect 6046 168 6906 246
-rect 7176 168 8036 246
-rect 8340 160 8944 228
-rect 9136 154 9626 236
-rect 9886 166 10582 234
 << nsubdiffcont >>
 rect 440 1368 474 1402
 rect 530 1368 564 1402
@@ -5784,16 +5751,6 @@ rect 10500 328 10556 362
 rect 10590 328 10646 362
 rect 10680 328 10814 362
 rect 146 296 10814 328
-rect 422 30 982 132
-rect 1632 30 1994 132
-rect 2880 30 3242 128
-rect 4062 30 4424 130
-rect 5178 30 5540 136
-rect 6352 30 6714 140
-rect 7462 30 7824 140
-rect 8538 30 8788 140
-rect 9294 30 9518 136
-rect 10096 30 10368 140
 rect 120 17 10840 30
 rect 120 -17 303 17
 rect 337 -17 503 17
@@ -6984,56 +6941,6 @@ rect 10296 666 10330 700
 rect 10396 688 10430 700
 rect 10396 666 10424 688
 rect 10424 666 10430 688
-rect 244 224 1180 250
-rect 244 146 284 224
-rect 284 146 1144 224
-rect 1144 146 1180 224
-rect 244 132 1180 146
-rect 1380 224 2316 250
-rect 1380 146 1408 224
-rect 1408 146 2268 224
-rect 2268 146 2316 224
-rect 1380 132 2316 146
-rect 2584 232 3520 246
-rect 2584 154 2608 232
-rect 2608 154 3468 232
-rect 3468 154 3520 232
-rect 2584 128 3520 154
-rect 3726 232 4662 248
-rect 3726 154 3744 232
-rect 3744 154 4604 232
-rect 4604 154 4662 232
-rect 3726 130 4662 154
-rect 4836 238 5772 254
-rect 4836 160 4854 238
-rect 4854 160 5714 238
-rect 5714 160 5772 238
-rect 4836 136 5772 160
-rect 6020 246 6956 258
-rect 6020 168 6046 246
-rect 6046 168 6906 246
-rect 6906 168 6956 246
-rect 6020 140 6956 168
-rect 7154 246 8060 260
-rect 7154 168 7176 246
-rect 7176 168 8036 246
-rect 8036 168 8060 246
-rect 7154 140 8060 168
-rect 8322 228 8976 250
-rect 8322 160 8340 228
-rect 8340 160 8944 228
-rect 8944 160 8976 228
-rect 8322 140 8976 160
-rect 9114 236 9654 256
-rect 9114 154 9136 236
-rect 9136 154 9626 236
-rect 9626 154 9654 236
-rect 9114 136 9654 154
-rect 9870 234 10618 254
-rect 9870 166 9886 234
-rect 9886 166 10582 234
-rect 10582 166 10618 234
-rect 9870 140 10618 166
 rect 303 -17 337 17
 rect 503 -17 537 17
 rect 703 -17 737 17
@@ -7651,46 +7558,6 @@ rect 10230 666 10296 700
 rect 10330 666 10396 700
 rect 10430 666 10476 700
 rect 484 634 10476 666
-rect 232 250 1192 256
-rect 232 132 244 250
-rect 1180 132 1192 250
-rect 232 126 1192 132
-rect 1368 250 2328 256
-rect 4824 254 5784 260
-rect 1368 132 1380 250
-rect 2316 132 2328 250
-rect 1368 126 2328 132
-rect 2572 246 3532 252
-rect 2572 128 2584 246
-rect 3520 128 3532 246
-rect 2572 122 3532 128
-rect 3714 248 4674 254
-rect 3714 130 3726 248
-rect 4662 130 4674 248
-rect 4824 136 4836 254
-rect 5772 136 5784 254
-rect 4824 130 5784 136
-rect 6008 258 6968 264
-rect 6008 140 6020 258
-rect 6956 140 6968 258
-rect 6008 134 6968 140
-rect 7142 260 8072 266
-rect 7142 140 7154 260
-rect 8060 140 8072 260
-rect 9102 256 9666 262
-rect 7142 134 8072 140
-rect 8310 250 8988 256
-rect 8310 140 8322 250
-rect 8976 140 8988 250
-rect 8310 134 8988 140
-rect 9102 136 9114 256
-rect 9654 136 9666 256
-rect 9102 130 9666 136
-rect 9858 254 10630 260
-rect 9858 140 9870 254
-rect 10618 140 10630 254
-rect 9858 134 10630 140
-rect 3714 124 4674 130
 rect 120 17 10840 60
 rect 120 -17 303 17
 rect 337 -17 503 17
@@ -7748,63 +7615,63 @@ rect 10537 -17 10703 17
 rect 10737 -17 10840 17
 rect 120 -60 10840 -17
 << labels >>
-flabel locali s 10054 896 10302 1000 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Emitter
+flabel locali s 10054 896 10302 1000 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Emitter
 port 1 nsew
-flabel locali s 10113 1522 10214 1571 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Collector
+flabel locali s 10113 1522 10214 1571 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Collector
 port 2 nsew
-flabel locali s 10090 1372 10208 1412 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Base
+flabel locali s 10090 1372 10208 1412 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Base
 port 3 nsew
-flabel locali s 8714 896 8962 1000 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Emitter
+flabel locali s 8714 896 8962 1000 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Emitter
 port 4 nsew
-flabel locali s 8773 1522 8874 1571 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Collector
+flabel locali s 8773 1522 8874 1571 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Collector
 port 5 nsew
-flabel locali s 8750 1372 8868 1412 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Base
+flabel locali s 8750 1372 8868 1412 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Base
 port 6 nsew
-flabel locali s 7374 896 7622 1000 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Emitter
+flabel locali s 7374 896 7622 1000 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Emitter
 port 7 nsew
-flabel locali s 7433 1522 7534 1571 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Collector
+flabel locali s 7433 1522 7534 1571 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Collector
 port 8 nsew
-flabel locali s 7410 1372 7528 1412 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Base
+flabel locali s 7410 1372 7528 1412 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Base
 port 9 nsew
-flabel locali s 6034 896 6282 1000 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Emitter
+flabel locali s 6034 896 6282 1000 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Emitter
 port 10 nsew
-flabel locali s 6093 1522 6194 1571 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Collector
+flabel locali s 6093 1522 6194 1571 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Collector
 port 11 nsew
-flabel locali s 6070 1372 6188 1412 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Base
+flabel locali s 6070 1372 6188 1412 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Base
 port 12 nsew
-flabel locali s 4694 896 4942 1000 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Emitter
+flabel locali s 4694 896 4942 1000 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Emitter
 port 13 nsew
-flabel locali s 4753 1522 4854 1571 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Collector
+flabel locali s 4753 1522 4854 1571 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Collector
 port 14 nsew
-flabel locali s 4730 1372 4848 1412 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Base
+flabel locali s 4730 1372 4848 1412 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Base
 port 15 nsew
-flabel locali s 3354 896 3602 1000 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Emitter
+flabel locali s 3354 896 3602 1000 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Emitter
 port 16 nsew
-flabel locali s 3413 1522 3514 1571 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Collector
+flabel locali s 3413 1522 3514 1571 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Collector
 port 17 nsew
-flabel locali s 3390 1372 3508 1412 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Base
+flabel locali s 3390 1372 3508 1412 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Base
 port 18 nsew
-flabel locali s 2014 896 2262 1000 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Emitter
+flabel locali s 2014 896 2262 1000 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Emitter
 port 19 nsew
-flabel locali s 2073 1522 2174 1571 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Collector
+flabel locali s 2073 1522 2174 1571 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Collector
 port 20 nsew
-flabel locali s 2050 1372 2168 1412 0 FreeSans 976 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base
+flabel locali s 2050 1372 2168 1412 0 FreeSans 625 0 0 0 sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base
 port 21 nsew
-flabel locali s 674 896 922 1000 0 FreeSans 976 0 0 0 xm1/Emitter
+flabel locali s 674 896 922 1000 0 FreeSans 625 0 0 0 xm1/Emitter
 port 22 nsew
-flabel locali s 733 1522 834 1571 0 FreeSans 976 0 0 0 xm1/Collector
+flabel locali s 733 1522 834 1571 0 FreeSans 625 0 0 0 xm1/Collector
 port 23 nsew
-flabel locali s 710 1372 828 1412 0 FreeSans 976 0 0 0 xm1/Base
+flabel locali s 710 1372 828 1412 0 FreeSans 625 0 0 0 xm1/Base
 port 24 nsew
-flabel metal1 s 660 1010 900 1140 1 FreeSans 1171 0 0 0 Emitter
+flabel metal1 s 660 1010 900 1140 1 FreeSans 750 0 0 0 Emitter
 port 25 nsew
-flabel metal1 s 310 1372 550 1412 1 FreeSans 1171 0 0 0 Base
+flabel metal1 s 310 1372 550 1412 1 FreeSans 750 0 0 0 Base
 port 26 nsew
-flabel metal1 s 146 1524 386 1564 1 FreeSans 1171 0 0 0 Collector
+flabel metal1 s 146 1524 386 1564 1 FreeSans 750 0 0 0 Collector
 port 27 nsew
-flabel metal1 s 120 1850 180 1910 1 FreeSans 1952 0 0 0 VPWR
+flabel metal1 s 120 1850 180 1910 1 FreeSans 1250 0 0 0 VPWR
 port 28 nsew
-flabel metal1 s 120 -30 180 30 1 FreeSans 1952 0 0 0 VGND
+flabel metal1 s 120 -30 180 30 1 FreeSans 1250 0 0 0 VGND
 port 29 nsew
 << properties >>
 string FIXED_BBOX 0 0 10960 1880
