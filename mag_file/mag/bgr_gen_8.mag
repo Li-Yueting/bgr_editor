@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1656211776
+timestamp 1656302548
 << metal1 >>
 rect 900 50772 57536 50892
 rect 3348 48892 55088 49012
@@ -1681,19 +1681,19 @@ use bgr_top_VIA3#0  bgr_top_VIA3_49
 timestamp 1655503347
 transform 1 0 1716 0 1 5712
 box -816 -60 816 60
-use bgr_top_VIA4  bgr_top_VIA4_0
+use bgr_top_VIA4#0  bgr_top_VIA4_0
 timestamp 1655503347
 transform 1 0 54272 0 1 52464
 box -782 -782 782 782
-use bgr_top_VIA4  bgr_top_VIA4_1
+use bgr_top_VIA4#0  bgr_top_VIA4_1
 timestamp 1655503347
 transform 1 0 54272 0 1 4080
 box -782 -782 782 782
-use bgr_top_VIA4  bgr_top_VIA4_2
+use bgr_top_VIA4#0  bgr_top_VIA4_2
 timestamp 1655503347
 transform 1 0 4164 0 1 52464
 box -782 -782 782 782
-use bgr_top_VIA4  bgr_top_VIA4_3
+use bgr_top_VIA4#0  bgr_top_VIA4_3
 timestamp 1655503347
 transform 1 0 4164 0 1 4080
 box -782 -782 782 782
