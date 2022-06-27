@@ -4,56 +4,6 @@ K {}
 V {}
 S {}
 E {}
-N 3770 20 3860 20 { lab=vssa1}
-N 3890 -460 3960 -460 { lab=vccd1}
-N 4080 -120 4080 -110 { lab=gpio_analog[1]}
-N 4040 -60 4040 -30 { lab=vssa1}
-N 3860 -10 4080 -10 { lab=vssa1}
-N 4080 -110 4080 -90 { lab=gpio_analog[1]}
-N 4080 -180 4080 -150 { lab=vccd1}
-N 4080 -60 4080 -30 { lab=vssa1}
-N 4040 -180 4040 -150 { lab=vccd1}
-N 4040 -180 4080 -180 { lab=vccd1}
-N 3600 -290 3600 -260 { lab=vssa1}
-N 3680 -410 3680 -350 { lab=vccd1}
-N 3680 -310 3680 -220 { lab=vssa1}
-N 3600 -10 3860 -10 { lab=vssa1}
-N 3600 -20 3600 -10 { lab=vssa1}
-N 3680 -20 3680 -10 { lab=vssa1}
-N 3860 -10 3860 20 { lab=vssa1}
-N 4040 -30 4080 -30 { lab=vssa1}
-N 3980 -110 4130 -110 { lab=gpio_analog[1]}
-N 3600 -220 3600 -20 { lab=vssa1}
-N 3680 -220 3680 -20 { lab=vssa1}
-N 4360 -120 4360 -110 { lab=gpio_analog[4]}
-N 4320 -60 4320 -30 { lab=vssa1}
-N 4360 -30 4360 -10 { lab=vssa1}
-N 4360 -110 4360 -90 { lab=gpio_analog[4]}
-N 4360 -180 4360 -150 { lab=vccd1}
-N 4360 -60 4360 -30 { lab=vssa1}
-N 4320 -180 4320 -150 { lab=vccd1}
-N 4320 -180 4360 -180 { lab=vccd1}
-N 4320 -30 4360 -30 { lab=vssa1}
-N 4660 -120 4660 -110 { lab=gpio_analog[2]}
-N 4620 -60 4620 -30 { lab=vssa1}
-N 4660 -30 4660 -10 { lab=vssa1}
-N 4660 -110 4660 -90 { lab=gpio_analog[2]}
-N 4660 -180 4660 -150 { lab=vccd1}
-N 4660 -60 4660 -30 { lab=vssa1}
-N 4620 -180 4620 -150 { lab=vccd1}
-N 4620 -180 4660 -180 { lab=vccd1}
-N 4620 -30 4660 -30 { lab=vssa1}
-N 4290 -110 4410 -110 { lab=gpio_analog[4]}
-N 3980 -330 4290 -330 { lab=gpio_analog[4]}
-N 4290 -330 4290 -110 { lab=gpio_analog[4]}
-N 4080 -10 4660 -10 { lab=vssa1}
-N 4580 -110 4710 -110 { lab=gpio_analog[2]}
-N 4580 -350 4580 -110 { lab=gpio_analog[2]}
-N 4080 -410 4080 -180 { lab=vccd1}
-N 4360 -410 4360 -180 { lab=vccd1}
-N 4080 -410 4360 -410 { lab=vccd1}
-N 4660 -410 4660 -180 { lab=vccd1}
-N 4360 -410 4660 -410 { lab=vccd1}
 N 4130 450 4130 500 { lab=vssa1}
 N 4280 370 4400 370 { lab=gpio_analog[5]}
 N 3830 350 3950 350 { lab=gpio_analog[6]}
@@ -77,23 +27,6 @@ N 3870 270 3910 270 { lab=vccd1}
 N 3910 270 3910 300 { lab=vccd1}
 N 3910 270 4160 270 { lab=vccd1}
 N 3870 420 3870 460 { lab=vssa1}
-N 3890 -460 3960 -460 { lab=vccd1}
-N 3600 -330 3600 -320 { lab=gpio_analog[3]}
-N 3640 -290 3640 -260 { lab=vssa1}
-N 3600 -260 3640 -260 { lab=vssa1}
-N 3600 -290 3600 -260 { lab=vssa1}
-N 3600 -260 3600 -220 { lab=vssa1}
-N 3980 -350 4040 -350 { lab=gpio_analog[2]}
-N 4040 -350 4580 -350 { lab=gpio_analog[2]}
-N 3600 -410 3680 -410 { lab=vccd1}
-N 3680 -410 4080 -410 { lab=vccd1}
-N 3890 -460 3890 -410 { lab=vccd1}
-N 3600 -350 3600 -320 { lab=gpio_analog[3]}
-N 3560 -330 3680 -330 { lab=gpio_analog[3]}
-N 3980 -310 3980 -110 { lab=gpio_analog[1]}
-N 4080 -30 4080 -10 { lab=vssa1}
-N 3600 -400 3600 -380 { lab=vccd1}
-N 3600 -410 3600 -400 { lab=vccd1}
 N 4160 220 4160 270 { lab=vccd1}
 N 4160 270 4350 270 { lab=vccd1}
 N 4350 270 4350 300 { lab=vccd1}
@@ -102,7 +35,6 @@ N 4310 300 4350 300 { lab=vccd1}
 N 4250 270 4250 350 { lab=vccd1}
 N 3870 470 4130 470 { lab=vssa1}
 N 3870 460 3870 470 { lab=vssa1}
-N 3640 -410 3640 -380 { lab=vccd1}
 N 4350 300 4350 330 { lab=vccd1}
 N 5670 -210 5670 -180 { lab=vssa1}
 N 5710 -340 5710 -310 { lab=vccd1}
@@ -111,7 +43,7 @@ N 5670 -340 5670 -310 { lab=vccd1}
 N 5670 -340 5710 -340 { lab=vccd1}
 N 5670 -180 5710 -180 { lab=vssa1}
 N 5220 -210 5220 -180 { lab=vssa1}
-N 5220 -250 5220 -240 { lab=io_analog[3]}
+N 5220 -250 5220 -240 { lab=gpio_analog[2]}
 N 5260 -210 5260 -180 { lab=vssa1}
 N 5220 -180 5260 -180 { lab=vssa1}
 N 5220 -210 5220 -180 { lab=vssa1}
@@ -119,9 +51,9 @@ N 5220 -180 5220 -140 { lab=vssa1}
 N 5220 -320 5220 -300 { lab=vccd1}
 N 5220 -330 5220 -320 { lab=vccd1}
 N 5260 -330 5260 -300 { lab=vccd1}
-N 5220 -250 5330 -250 { lab=io_analog[3]}
-N 5220 -270 5220 -250 { lab=io_analog[3]}
-N 5180 -250 5220 -250 { lab=io_analog[3]}
+N 5220 -250 5330 -250 { lab=gpio_analog[2]}
+N 5220 -270 5220 -250 { lab=gpio_analog[2]}
+N 5180 -250 5220 -250 { lab=gpio_analog[2]}
 N 5220 -330 5260 -330 { lab=vccd1}
 N 5440 -140 5440 -80 { lab=vssa1}
 N 5330 -230 5330 -140 { lab=vssa1}
@@ -130,13 +62,46 @@ N 5220 -360 5480 -360 { lab=vccd1}
 N 5220 -360 5220 -330 { lab=vccd1}
 N 5330 -360 5330 -270 { lab=vccd1}
 N 5480 -360 5710 -360 { lab=vccd1}
-N 5630 -270 5710 -270 { lab=io_analog[2]}
-N 5710 -280 5710 -270 { lab=io_analog[2]}
-N 5710 -270 5710 -240 { lab=io_analog[2]}
+N 5630 -270 5710 -270 { lab=gpio_analog[1]}
+N 5710 -280 5710 -270 { lab=gpio_analog[1]}
+N 5710 -270 5710 -240 { lab=gpio_analog[1]}
 N 5220 -140 5710 -140 { lab=vssa1}
 N 5710 -180 5710 -140 { lab=vssa1}
 N 5710 -360 5710 -340 { lab=vccd1}
-N 5710 -270 5770 -270 { lab=io_analog[2]}
+N 5710 -270 5770 -270 { lab=gpio_analog[1]}
+N 4320 -230 4320 -200 { lab=vssa1}
+N 4360 -360 4360 -330 { lab=vccd1}
+N 4360 -230 4360 -200 { lab=vssa1}
+N 4320 -360 4320 -330 { lab=vccd1}
+N 4320 -360 4360 -360 { lab=vccd1}
+N 4320 -200 4360 -200 { lab=vssa1}
+N 3870 -230 3870 -200 { lab=vssa1}
+N 3870 -270 3870 -260 { lab=gpio_analog[4]}
+N 3910 -230 3910 -200 { lab=vssa1}
+N 3870 -200 3910 -200 { lab=vssa1}
+N 3870 -230 3870 -200 { lab=vssa1}
+N 3870 -200 3870 -160 { lab=vssa1}
+N 3870 -340 3870 -320 { lab=vccd1}
+N 3870 -350 3870 -340 { lab=vccd1}
+N 3910 -350 3910 -320 { lab=vccd1}
+N 3870 -270 3980 -270 { lab=gpio_analog[4]}
+N 3870 -290 3870 -270 { lab=gpio_analog[4]}
+N 3830 -270 3870 -270 { lab=gpio_analog[4]}
+N 3870 -350 3910 -350 { lab=vccd1}
+N 4090 -160 4090 -100 { lab=vssa1}
+N 3980 -250 3980 -160 { lab=vssa1}
+N 4130 -420 4130 -380 { lab=vccd1}
+N 3870 -380 4130 -380 { lab=vccd1}
+N 3870 -380 3870 -350 { lab=vccd1}
+N 3980 -380 3980 -290 { lab=vccd1}
+N 4130 -380 4360 -380 { lab=vccd1}
+N 4280 -290 4360 -290 { lab=gpio_analog[3]}
+N 4360 -300 4360 -290 { lab=gpio_analog[3]}
+N 4360 -290 4360 -260 { lab=gpio_analog[3]}
+N 3870 -160 4360 -160 { lab=vssa1}
+N 4360 -200 4360 -160 { lab=vssa1}
+N 4360 -380 4360 -360 { lab=vccd1}
+N 4360 -290 4420 -290 { lab=gpio_analog[3]}
 C {devices/iopin.sym} 3240 -470 0 0 {name=p1 lab=vdda1}
 C {devices/iopin.sym} 3240 -440 0 0 {name=p2 lab=vdda2}
 C {devices/iopin.sym} 3240 -410 0 0 {name=p3 lab=vssa1}
@@ -169,96 +134,6 @@ C {devices/iopin.sym} 3250 500 0 0 {name=p30 lab=io_clamp_high[2:0]}
 C {devices/iopin.sym} 3250 530 0 0 {name=p31 lab=io_clamp_low[2:0]}
 C {devices/opin.sym} 3270 600 0 0 {name=p32 lab=user_irq[2:0]}
 C {devices/ipin.sym} 3290 210 0 0 {name=p28 lab=la_oenb[127:0]}
-C {devices/lab_pin.sym} 3770 20 0 0 {name=l2 sig_type=std_logic lab=vssa1}
-C {devices/lab_pin.sym} 3960 -460 0 1 {name=l3 sig_type=std_logic lab=vccd1}
-C {devices/lab_pin.sym} 4130 -110 0 1 {name=l8 sig_type=std_logic lab=gpio_analog[1]}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 4060 -60 0 0 {name=M1
-L=1
-W=5
-nf=1
-mult=20
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8_lvt.sym} 4060 -150 0 0 {name=M2
-L=1
-W=5
-nf=1
-mult=20
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8_lvt
-spiceprefix=X
-}
-C {devices/lab_pin.sym} 4410 -110 0 1 {name=l1 sig_type=std_logic lab=gpio_analog[4]}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 4340 -60 0 0 {name=M5
-L=1
-W=5
-nf=1
-mult=20
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8_lvt.sym} 4340 -150 0 0 {name=M6
-L=1
-W=5
-nf=1
-mult=20
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8_lvt
-spiceprefix=X
-}
-C {devices/lab_pin.sym} 4710 -110 0 1 {name=l4 sig_type=std_logic lab=gpio_analog[2]}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 4640 -60 0 0 {name=M7
-L=1
-W=5
-nf=1
-mult=20
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8_lvt.sym} 4640 -150 0 0 {name=M8
-L=1
-W=5
-nf=1
-mult=20
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8_lvt
-spiceprefix=X
-}
-C {bgr_final.sym} 3830 -330 0 0 {name=x1}
 C {devices/lab_pin.sym} 4130 500 0 0 {name=l5 sig_type=std_logic lab=vssa1}
 C {devices/lab_pin.sym} 4160 220 0 1 {name=l6 sig_type=std_logic lab=vccd1}
 C {devices/lab_pin.sym} 4400 370 0 1 {name=l7 sig_type=std_logic lab=gpio_analog[5]}
@@ -319,39 +194,8 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 3960 -460 0 1 {name=l12 sig_type=std_logic lab=vccd1}
-C {devices/lab_pin.sym} 3560 -330 0 0 {name=l14 sig_type=std_logic lab=gpio_analog[3]}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 3620 -290 0 1 {name=M15
-L=1
-W=5
-nf=1
-mult=20
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8_lvt.sym} 3620 -380 0 1 {name=M16
-L=1
-W=5
-nf=1
-mult=20
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8_lvt
-spiceprefix=X
-}
 C {xschem/bandgaptop_flat_io.sym} 4100 370 0 0 {name=x2}
-C {xschem/bgr_gen_8.sym} 5480 -250 0 0 {name=x3}
-C {devices/lab_pin.sym} 5770 -270 0 1 {name=l9 sig_type=std_logic lab=io_analog[2]}
+C {devices/lab_pin.sym} 5770 -270 0 1 {name=l9 sig_type=std_logic lab=gpio_analog[1]}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 5690 -210 0 0 {name=M3
 L=1
 W=5
@@ -380,7 +224,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 5180 -250 0 0 {name=l11 sig_type=std_logic lab=io_analog[3]}
+C {devices/lab_pin.sym} 5180 -250 0 0 {name=l11 sig_type=std_logic lab=gpio_analog[2]}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 5240 -210 0 1 {name=M13
 L=1
 W=5
@@ -411,3 +255,65 @@ spiceprefix=X
 }
 C {devices/lab_pin.sym} 5440 -80 0 0 {name=l13 sig_type=std_logic lab=vssa1}
 C {devices/lab_pin.sym} 5480 -400 0 1 {name=l15 sig_type=std_logic lab=vccd1}
+C {xschem/bgr_top.sym} 4130 -270 0 0 {name=x1}
+C {xschem/bgr_gen_7.sym} 5480 -250 0 0 {name=x3}
+C {devices/lab_pin.sym} 4420 -290 0 1 {name=l1 sig_type=std_logic lab=gpio_analog[3]}
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 4340 -230 0 0 {name=M1
+L=1
+W=5
+nf=1
+mult=20
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8_lvt
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 4340 -330 0 0 {name=M2
+L=1
+W=5
+nf=1
+mult=20
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8_lvt
+spiceprefix=X
+}
+C {devices/lab_pin.sym} 3830 -270 0 0 {name=l2 sig_type=std_logic lab=gpio_analog[4]}
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 3890 -230 0 1 {name=M5
+L=1
+W=5
+nf=1
+mult=20
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8_lvt
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 3890 -320 0 1 {name=M6
+L=1
+W=5
+nf=1
+mult=20
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8_lvt
+spiceprefix=X
+}
+C {devices/lab_pin.sym} 4090 -100 0 0 {name=l3 sig_type=std_logic lab=vssa1}
+C {devices/lab_pin.sym} 4130 -420 0 1 {name=l4 sig_type=std_logic lab=vccd1}

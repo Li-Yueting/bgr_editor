@@ -21,9 +21,9 @@ node "Base" 6298 1205.09 894 1372 li 0 0 0 0 0 0 0 0 256320 7120 0 0 0 0 0 0 0 0
 equiv "Base" "xm1/Base"
 substrate "Collector" 0 0 930 1524 li 0 0 0 0 0 0 0 0 0 0 479548 9496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 470844 9512 0 0 0 0 0 0 0 0 0 0 0 0
 equiv "Collector" "xm1/Collector"
-cap "VGND" "Base" 54.1177
-cap "VPWR" "Emitter" 176.161
+cap "VGND" "Emitter" 176.158
 cap "Base" "Emitter" 1211.7
 cap "VPWR" "Base" 54.1213
-cap "VGND" "Emitter" 176.158
+cap "VGND" "Base" 54.1177
+cap "VPWR" "Emitter" 176.161
 device msubckt sky130_fd_pr__pnp_05v5 273 423 274 424 "None" "Base" 0 0 "Emitter" 570 0 "Collector" 570 0

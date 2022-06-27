@@ -1,28 +1,40 @@
-Flattening unmatched subcell sky130_asc_res_xhigh_po_2p85_1 in circuit bgr_final (0)(31 instances)
-Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_60 in circuit bgr_final (0)(3 instances)
-Flattening unmatched subcell sky130_asc_res_xhigh_po_2p85_2 in circuit bgr_final (0)(2 instances)
-Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_12 in circuit bgr_final (0)(2 instances)
-Flattening unmatched subcell sky130_asc_nfet_01v8_lvt_9 in circuit bgr_final (0)(3 instances)
-Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_6 in circuit bgr_final (0)(2 instances)
-Flattening unmatched subcell sky130_asc_cap_mim_m3_1 in circuit bgr_final (0)(10 instances)
-Flattening unmatched subcell sky130_asc_nfet_01v8_lvt_1 in circuit bgr_final (0)(2 instances)
-Flattening unmatched subcell sky130_asc_res_xhigh_po_2p85_1 in circuit bgr_gen_0 (0)(31 instances)
-Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_60 in circuit bgr_gen_0 (0)(3 instances)
-Flattening unmatched subcell sky130_asc_res_xhigh_po_2p85_2 in circuit bgr_gen_0 (0)(2 instances)
-Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_12 in circuit bgr_gen_0 (0)(2 instances)
-Flattening unmatched subcell sky130_asc_nfet_01v8_lvt_9 in circuit bgr_gen_0 (0)(3 instances)
-Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_6 in circuit bgr_gen_0 (0)(2 instances)
-Flattening unmatched subcell sky130_asc_cap_mim_m3_1 in circuit bgr_gen_0 (0)(10 instances)
-Flattening unmatched subcell sky130_asc_nfet_01v8_lvt_1 in circuit bgr_gen_0 (0)(2 instances)
 Flattening unmatched subcell sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 in circuit bandgaptop_flat_io (0)(40 instances)
-Flattening unmatched subcell skywater_asc_res_xhigh_po_2p85_1 in circuit bgr_final (1)(31 instances)
-Flattening unmatched subcell skywater_asc_res_xhigh_po_2p85_2 in circuit bgr_final (1)(2 instances)
-Flattening unmatched subcell skywater_asc_res_xhigh_po_2p85_1 in circuit bgr_gen_8 (1)(31 instances)
-Flattening unmatched subcell skywater_asc_res_xhigh_po_2p85_2 in circuit bgr_gen_8 (1)(2 instances)
-Flattening unmatched subcell nmos_flat in circuit yueting_debug (0)(8 instances)
-Flattening unmatched subcell bgr_gen_0 in circuit yueting_debug (0)(1 instance)
-Flattening unmatched subcell pmos_flat in circuit yueting_debug (0)(8 instances)
-Flattening unmatched subcell bgr_gen_8 in circuit user_analog_project_wrapper (1)(1 instance)
+Flattening unmatched subcell sky130_asc_res_xhigh_po_2p85_1 in circuit bgr_gen7 (0)(31 instances)
+Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_60 in circuit bgr_gen7 (0)(3 instances)
+Flattening unmatched subcell sky130_asc_res_xhigh_po_2p85_2 in circuit bgr_gen7 (0)(2 instances)
+Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_12 in circuit bgr_gen7 (0)(2 instances)
+Flattening unmatched subcell sky130_asc_nfet_01v8_lvt_9 in circuit bgr_gen7 (0)(3 instances)
+Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_6 in circuit bgr_gen7 (0)(2 instances)
+Flattening unmatched subcell sky130_asc_cap_mim_m3_1 in circuit bgr_gen7 (0)(10 instances)
+Flattening unmatched subcell sky130_asc_nfet_01v8_lvt_1 in circuit bgr_gen7 (0)(2 instances)
+Flattening unmatched subcell sky130_asc_res_xhigh_po_2p85_1 in circuit bgr_top (0)(31 instances)
+Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_60 in circuit bgr_top (0)(3 instances)
+Flattening unmatched subcell sky130_asc_res_xhigh_po_2p85_2 in circuit bgr_top (0)(2 instances)
+Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_12 in circuit bgr_top (0)(2 instances)
+Flattening unmatched subcell sky130_asc_nfet_01v8_lvt_9 in circuit bgr_top (0)(3 instances)
+Flattening unmatched subcell sky130_asc_pfet_01v8_lvt_6 in circuit bgr_top (0)(2 instances)
+Flattening unmatched subcell sky130_asc_cap_mim_m3_1 in circuit bgr_top (0)(10 instances)
+Flattening unmatched subcell sky130_asc_nfet_01v8_lvt_1 in circuit bgr_top (0)(2 instances)
+Flattening unmatched subcell skywater_asc_res_xhigh_po_2p85_1 in circuit bgr_top (1)(31 instances)
+Flattening unmatched subcell skywater_asc_res_xhigh_po_2p85_2 in circuit bgr_top (1)(2 instances)
+Flattening unmatched subcell skywater_asc_res_xhigh_po_2p85_1 in circuit bgr_gen_7 (1)(31 instances)
+Flattening unmatched subcell skywater_asc_res_xhigh_po_2p85_2 in circuit bgr_gen_7 (1)(2 instances)
+Flattening unmatched subcell nmos_flat in circuit yueting_debug (0)(6 instances)
+Flattening unmatched subcell bgr_gen7 in circuit yueting_debug (0)(1 instance)
+Flattening unmatched subcell pmos_flat in circuit yueting_debug (0)(6 instances)
+Flattening unmatched subcell bgr_gen_7 in circuit user_analog_project_wrapper (1)(1 instance)
+Warning: Equate pins:  cell sky130_fd_pr__pnp_05v5_W3p40L3p40 has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pnp_05v5_W3p40L3p40 has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pnp_05v5_W3p40L3p |Circuit 2: sky130_fd_pr__pnp_05v5_W3p40L3p 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pnp_05v5_W3p40L3p40 and sky130_fd_pr__pnp_05v5_W3p40L3p40 are equivalent.
 Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po has no definition, treated as a black box.
 Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po has no definition, treated as a black box.
 
@@ -48,18 +60,6 @@ Circuit 1: sky130_fd_pr__pfet_01v8_lvt     |Circuit 2: sky130_fd_pr__pfet_01v8_l
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
-Warning: Equate pins:  cell sky130_fd_pr__pnp_05v5_W3p40L3p40 has no definition, treated as a black box.
-Warning: Equate pins:  cell sky130_fd_pr__pnp_05v5_W3p40L3p40 has no definition, treated as a black box.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_pr__pnp_05v5_W3p40L3p |Circuit 2: sky130_fd_pr__pnp_05v5_W3p40L3p 
--------------------------------------------|-------------------------------------------
-1                                          |1                                          
-2                                          |2                                          
-3                                          |3                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_pr__pnp_05v5_W3p40L3p40 and sky130_fd_pr__pnp_05v5_W3p40L3p40 are equivalent.
 Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8_lvt has no definition, treated as a black box.
 Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8_lvt has no definition, treated as a black box.
 
@@ -84,6 +84,29 @@ Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_2 has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_2 has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_2      |Circuit 2: sky130_fd_pr__cap_mim_m3_2      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_2 and sky130_fd_pr__cap_mim_m3_2 are equivalent.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_2p85 has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_2p85 has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_2p85 |Circuit 2: sky130_fd_pr__res_xhigh_po_2p85 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_2p85 and sky130_fd_pr__res_xhigh_po_2p85 are equivalent.
 
 Cell sky130_asc_pnp_05v5_W3p40L3p40_7 disconnected node: VPWR
 Cell sky130_asc_pnp_05v5_W3p40L3p40_7 disconnected node: VGND
@@ -184,60 +207,6 @@ VGND                                       |VGND
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_asc_pnp_05v5_W3p40L3p40_8 and sky130_asc_pnp_05v5_W3p40L3p40_8 are equivalent.
-Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_2 has no definition, treated as a black box.
-Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_2 has no definition, treated as a black box.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_pr__cap_mim_m3_2      |Circuit 2: sky130_fd_pr__cap_mim_m3_2      
--------------------------------------------|-------------------------------------------
-1                                          |1                                          
-2                                          |2                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_pr__cap_mim_m3_2 and sky130_fd_pr__cap_mim_m3_2 are equivalent.
-Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_2p85 has no definition, treated as a black box.
-Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_2p85 has no definition, treated as a black box.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_pr__res_xhigh_po_2p85 |Circuit 2: sky130_fd_pr__res_xhigh_po_2p85 
--------------------------------------------|-------------------------------------------
-1                                          |1                                          
-2                                          |2                                          
-3                                          |3                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_pr__res_xhigh_po_2p85 and sky130_fd_pr__res_xhigh_po_2p85 are equivalent.
-Class bgr_final:  Merged 431 devices.
-
-Subcircuit summary:
-Circuit 1: bgr_final                       |Circuit 2: bgr_final                       
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8_lvt (7)            |sky130_fd_pr__pfet_01v8_lvt (7)            
-sky130_asc_pnp_05v5_W3p40L3p40_7 (1)       |sky130_asc_pnp_05v5_W3p40L3p40_7 (1)       
-sky130_fd_pr__res_xhigh_po (4)             |sky130_fd_pr__res_xhigh_po (4)             
-sky130_fd_pr__nfet_01v8_lvt (5)            |sky130_fd_pr__nfet_01v8_lvt (5)            
-sky130_asc_pnp_05v5_W3p40L3p40_1 (1)       |sky130_asc_pnp_05v5_W3p40L3p40_1 (1)       
-sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (2)             
-sky130_asc_pnp_05v5_W3p40L3p40_8 (4)       |sky130_asc_pnp_05v5_W3p40L3p40_8 (4)       
-Number of devices: 24                      |Number of devices: 24                      
-Number of nets: 11                         |Number of nets: 11                         
----------------------------------------------------------------------------------------
-Resolving automorphisms by property value.
-Resolving automorphisms by pin name.
-Netlists match with 1 symmetry.
-Circuits match correctly.
-
-Subcircuit pins:
-Circuit 1: bgr_final                       |Circuit 2: bgr_final                       
--------------------------------------------|-------------------------------------------
-porst                                      |porst                                      
-vbg                                        |vbg                                        
-vb                                         |vb                                         
-va                                         |va                                         
-VSS                                        |vssa1 **Mismatch**                         
-VDD                                        |vccd1 **Mismatch**                         
----------------------------------------------------------------------------------------
-Cell pin lists for bgr_final and bgr_final altered to match.
 Class bandgaptop_flat_io:  Merged 287 devices.
 Class bandgaptop_flat_io:  Merged 41 devices.
 
@@ -265,6 +234,35 @@ bandgaptop_flat_0/GND                      |VGND **Mismatch**
 bandgaptop_flat_0/bandgapcorev3_0/Vbg      |vbg **Mismatch**                           
 ---------------------------------------------------------------------------------------
 Cell pin lists for bandgaptop_flat_io and bandgaptop_flat_io altered to match.
+Class bgr_top:  Merged 431 devices.
+
+Subcircuit summary:
+Circuit 1: bgr_top                         |Circuit 2: bgr_top                         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_lvt (7)            |sky130_fd_pr__pfet_01v8_lvt (7)            
+sky130_asc_pnp_05v5_W3p40L3p40_7 (1)       |sky130_asc_pnp_05v5_W3p40L3p40_7 (1)       
+sky130_fd_pr__res_xhigh_po (4)             |sky130_fd_pr__res_xhigh_po (4)             
+sky130_fd_pr__nfet_01v8_lvt (5)            |sky130_fd_pr__nfet_01v8_lvt (5)            
+sky130_asc_pnp_05v5_W3p40L3p40_1 (1)       |sky130_asc_pnp_05v5_W3p40L3p40_1 (1)       
+sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (2)             
+sky130_asc_pnp_05v5_W3p40L3p40_8 (4)       |sky130_asc_pnp_05v5_W3p40L3p40_8 (4)       
+Number of devices: 24                      |Number of devices: 24                      
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Resolving automorphisms by property value.
+Resolving automorphisms by pin name.
+Netlists match with 1 symmetry.
+Circuits match correctly.
+
+Subcircuit pins:
+Circuit 1: bgr_top                         |Circuit 2: bgr_top                         
+-------------------------------------------|-------------------------------------------
+porst                                      |porst                                      
+vbg                                        |vbg                                        
+VSS                                        |vssa1 **Mismatch**                         
+VDD                                        |vccd1 **Mismatch**                         
+---------------------------------------------------------------------------------------
+Cell pin lists for bgr_top and bgr_top altered to match.
 
 Cell yueting_debug disconnected node: gpio_analog[0]
 Cell yueting_debug disconnected node: gpio_analog[10]
@@ -299,6 +297,8 @@ Cell yueting_debug disconnected node: gpio_noesd[9]
 Cell yueting_debug disconnected node: io_analog[0]
 Cell yueting_debug disconnected node: io_analog[10]
 Cell yueting_debug disconnected node: io_analog[1]
+Cell yueting_debug disconnected node: io_analog[2]
+Cell yueting_debug disconnected node: io_analog[3]
 Cell yueting_debug disconnected node: io_analog[4]
 Cell yueting_debug disconnected node: io_analog[5]
 Cell yueting_debug disconnected node: io_analog[6]
@@ -1434,6 +1434,8 @@ Cell user_analog_project_wrapper disconnected node: io_analog[7]
 Cell user_analog_project_wrapper disconnected node: io_analog[6]
 Cell user_analog_project_wrapper disconnected node: io_analog[5]
 Cell user_analog_project_wrapper disconnected node: io_analog[4]
+Cell user_analog_project_wrapper disconnected node: io_analog[3]
+Cell user_analog_project_wrapper disconnected node: io_analog[2]
 Cell user_analog_project_wrapper disconnected node: io_analog[1]
 Cell user_analog_project_wrapper disconnected node: io_analog[0]
 Cell user_analog_project_wrapper disconnected node: io_clamp_high[2]
@@ -1573,7 +1575,7 @@ Cell user_analog_project_wrapper disconnected node: la_oenb[3]
 Cell user_analog_project_wrapper disconnected node: la_oenb[2]
 Cell user_analog_project_wrapper disconnected node: la_oenb[1]
 Cell user_analog_project_wrapper disconnected node: la_oenb[0]
-Class yueting_debug:  Merged 735 devices.
+Class yueting_debug:  Merged 659 devices.
 
 Cell yueting_debug disconnected node: gpio_analog[0]
 Cell yueting_debug disconnected node: gpio_analog[10]
@@ -1608,6 +1610,8 @@ Cell yueting_debug disconnected node: gpio_noesd[9]
 Cell yueting_debug disconnected node: io_analog[0]
 Cell yueting_debug disconnected node: io_analog[10]
 Cell yueting_debug disconnected node: io_analog[1]
+Cell yueting_debug disconnected node: io_analog[2]
+Cell yueting_debug disconnected node: io_analog[3]
 Cell yueting_debug disconnected node: io_analog[4]
 Cell yueting_debug disconnected node: io_analog[5]
 Cell yueting_debug disconnected node: io_analog[6]
@@ -2743,6 +2747,8 @@ Cell user_analog_project_wrapper disconnected node: io_analog[7]
 Cell user_analog_project_wrapper disconnected node: io_analog[6]
 Cell user_analog_project_wrapper disconnected node: io_analog[5]
 Cell user_analog_project_wrapper disconnected node: io_analog[4]
+Cell user_analog_project_wrapper disconnected node: io_analog[3]
+Cell user_analog_project_wrapper disconnected node: io_analog[2]
 Cell user_analog_project_wrapper disconnected node: io_analog[1]
 Cell user_analog_project_wrapper disconnected node: io_analog[0]
 Cell user_analog_project_wrapper disconnected node: io_clamp_high[2]
@@ -2886,17 +2892,17 @@ Cell user_analog_project_wrapper disconnected node: la_oenb[0]
 Subcircuit summary:
 Circuit 1: yueting_debug                   |Circuit 2: user_analog_project_wrapper     
 -------------------------------------------|-------------------------------------------
-bgr_final (1)                              |bgr_final (1)                              
-sky130_fd_pr__nfet_01v8_lvt (13)           |sky130_fd_pr__nfet_01v8_lvt (13)           
-sky130_fd_pr__pfet_01v8_lvt (15)           |sky130_fd_pr__pfet_01v8_lvt (15)           
-sky130_asc_pnp_05v5_W3p40L3p40_7 (1)       |sky130_asc_pnp_05v5_W3p40L3p40_7 (1)       
+sky130_fd_pr__nfet_01v8_lvt (11)           |sky130_fd_pr__nfet_01v8_lvt (11)           
+bandgaptop_flat_io (1)                     |bandgaptop_flat_io (1)                     
 sky130_fd_pr__res_xhigh_po (4)             |sky130_fd_pr__res_xhigh_po (4)             
+sky130_fd_pr__pfet_01v8_lvt (13)           |sky130_fd_pr__pfet_01v8_lvt (13)           
+sky130_asc_pnp_05v5_W3p40L3p40_7 (1)       |sky130_asc_pnp_05v5_W3p40L3p40_7 (1)       
 sky130_asc_pnp_05v5_W3p40L3p40_1 (1)       |sky130_asc_pnp_05v5_W3p40L3p40_1 (1)       
 sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (2)             
 sky130_asc_pnp_05v5_W3p40L3p40_8 (4)       |sky130_asc_pnp_05v5_W3p40L3p40_8 (4)       
-bandgaptop_flat_io (1)                     |bandgaptop_flat_io (1)                     
-Number of devices: 42                      |Number of devices: 42                      
-Number of nets: 17                         |Number of nets: 17                         
+bgr_top (1)                                |bgr_top (1)                                
+Number of devices: 38                      |Number of devices: 38                      
+Number of nets: 15                         |Number of nets: 15                         
 ---------------------------------------------------------------------------------------
 Resolving automorphisms by property value.
 Resolving automorphisms by pin name.
@@ -2906,16 +2912,14 @@ Circuits match correctly.
 Subcircuit pins:
 Circuit 1: yueting_debug                   |Circuit 2: user_analog_project_wrapper     
 -------------------------------------------|-------------------------------------------
-io_analog[2]                               |io_analog[2]                               
-vccd1                                      |vccd1                                      
-vssa1                                      |vssa1                                      
 gpio_analog[1]                             |gpio_analog[1]                             
-gpio_analog[4]                             |gpio_analog[4]                             
-gpio_analog[2]                             |gpio_analog[2]                             
-gpio_analog[3]                             |gpio_analog[3]                             
 gpio_analog[5]                             |gpio_analog[5]                             
 gpio_analog[6]                             |gpio_analog[6]                             
-io_analog[3]                               |io_analog[3]                               
+gpio_analog[2]                             |gpio_analog[2]                             
+gpio_analog[4]                             |gpio_analog[4]                             
+gpio_analog[3]                             |gpio_analog[3]                             
+vssa1                                      |vssa1                                      
+vccd1                                      |vccd1                                      
 gpio_analog[0]                             |gpio_analog[0]                             
 gpio_analog[10]                            |gpio_analog[10]                            
 gpio_analog[11]                            |gpio_analog[11]                            
@@ -2949,6 +2953,8 @@ gpio_noesd[9]                              |gpio_noesd[9]
 io_analog[0]                               |io_analog[0]                               
 io_analog[10]                              |io_analog[10]                              
 io_analog[1]                               |io_analog[1]                               
+io_analog[2]                               |io_analog[2]                               
+io_analog[3]                               |io_analog[3]                               
 io_analog[4]                               |io_analog[4]                               
 io_analog[5]                               |io_analog[5]                               
 io_analog[6]                               |io_analog[6]                               

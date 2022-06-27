@@ -63,16 +63,16 @@ equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Collector"
 equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Collector"
 equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Collector"
 equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Collector"
-cap "VGND" "Base" 775.686
-cap "VPWR" "Emitter" 605.829
+cap "VGND" "Emitter" 2618.38
 cap "Base" "Emitter" 17478.8
 cap "VPWR" "Base" 292.544
-cap "VGND" "Emitter" 2618.38
-device msubckt sky130_fd_pr__pnp_05v5 9653 423 9654 424 "None" "Base" 0 0 "Emitter" 1290 0 "Collector" 1290 0
-device msubckt sky130_fd_pr__pnp_05v5 8313 423 8314 424 "None" "Base" 0 0 "Emitter" 1290 0 "Collector" 1290 0
-device msubckt sky130_fd_pr__pnp_05v5 6973 423 6974 424 "None" "Base" 0 0 "Emitter" 1290 0 "Collector" 1290 0
-device msubckt sky130_fd_pr__pnp_05v5 5633 423 5634 424 "None" "Base" 0 0 "Emitter" 1290 0 "Collector" 1290 0
-device msubckt sky130_fd_pr__pnp_05v5 4293 423 4294 424 "None" "Base" 0 0 "Emitter" 1290 0 "Collector" 1290 0
-device msubckt sky130_fd_pr__pnp_05v5 2953 423 2954 424 "None" "Base" 0 0 "Emitter" 1290 0 "Collector" 1290 0
-device msubckt sky130_fd_pr__pnp_05v5 1613 423 1614 424 "None" "Base" 0 0 "Emitter" 1290 0 "Collector" 1290 0
-device msubckt sky130_fd_pr__pnp_05v5 273 423 274 424 "None" "Base" 0 0 "Emitter" 1290 0 "Collector" 1290 0
+cap "VGND" "Base" 775.686
+cap "VPWR" "Emitter" 605.829
+device msubckt sky130_fd_pr__pnp_05v5 9653 423 9654 424 "None" "Base" 0 0 "Emitter" 1000 0 "Collector" 1000 0
+device msubckt sky130_fd_pr__pnp_05v5 8313 423 8314 424 "None" "Base" 0 0 "Emitter" 1000 0 "Collector" 1000 0
+device msubckt sky130_fd_pr__pnp_05v5 6973 423 6974 424 "None" "Base" 0 0 "Emitter" 1000 0 "Collector" 1000 0
+device msubckt sky130_fd_pr__pnp_05v5 5633 423 5634 424 "None" "Base" 0 0 "Emitter" 1000 0 "Collector" 1000 0
+device msubckt sky130_fd_pr__pnp_05v5 4293 423 4294 424 "None" "Base" 0 0 "Emitter" 1000 0 "Collector" 1000 0
+device msubckt sky130_fd_pr__pnp_05v5 2953 423 2954 424 "None" "Base" 0 0 "Emitter" 1000 0 "Collector" 1000 0
+device msubckt sky130_fd_pr__pnp_05v5 1613 423 1614 424 "None" "Base" 0 0 "Emitter" 1000 0 "Collector" 1000 0
+device msubckt sky130_fd_pr__pnp_05v5 273 423 274 424 "None" "Base" 0 0 "Emitter" 1000 0 "Collector" 1000 0
