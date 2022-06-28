@@ -1,1 +1,1 @@
-netgen -batch lvs "yueting_debug.spice yueting_debug" "user_analog_project_wrapper.spice user_analog_project_wrapper" /ciic/tools/sak/common/skywater-pdk/open_pdks/sky130/sky130A/libs.tech/netgen/setup.tcl lvs_results.log
+netgen -batch lvs "user_analog_project_wrapper_flat.spice user_analog_project_wrapper" "yueting_debug.spice yueting_debug" /ciic/tools/sak/common/skywater-pdk/open_pdks/sky130/sky130A/libs.tech/netgen/setup.tcl lvs_results.log
