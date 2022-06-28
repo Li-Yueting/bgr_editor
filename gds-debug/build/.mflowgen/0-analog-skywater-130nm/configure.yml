@@ -1,0 +1,15 @@
+build_dir: 0-analog-skywater-130nm
+build_id: '0'
+commands:
+- mkdir -p outputs && cd outputs
+- ln -sf ../view-standard adk
+edges_i: {}
+edges_o: {}
+name: analog-skywater-130nm
+outputs:
+- adk
+parameters:
+  adk: skywater-130nm-analog-adk
+  adk_view: view-standard
+sandbox: true
+source: /home/users/lyt1314/ee372/aloe-sky130/skywater-130nm-analog-adk

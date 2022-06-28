@@ -1,0 +1,19 @@
+build_dir: 1-klayout-drc-gds
+build_id: '1'
+commands:
+- ./klayout_config.sh
+- git clone https://github.com/efabless/mpw_precheck.git
+- cp ./mpw_precheck/checks/tech-files/sky130A_mr.drc ./drc_sky130.drc
+- klayout -b -rd input=./user_analog_project_wrapper.gds -rd feol=1 -rd beol=1 -rd
+  offgrid=1 -rd seal=1 -rd floating_met=1 -rd report=sky130_drc_report.txt -r drc_sky130.drc
+- cp sky130_drc_report.txt ./outputs/sky130_drc_report.txt
+debug:
+- klayout -s ./user_analog_project_wrapper.gds -m ./outputs/sky130_drc_report.txt
+edges_i: {}
+edges_o: {}
+name: klayout-drc-gds
+outputs:
+- sky130_drc_report.txt
+parameters:
+  design_name: user_analog_project_wrapper
+source: /scratch/users/lyt1314/bgr_editor/gds-debug/design/klayout-drc-gds

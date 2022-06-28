@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>Density Checks</description>
+ <original-file/>
+ <generator>drc: script='/scratch/users/lyt1314/caravel_user_project_analog_BGR/mpw_precheck/checks/drc_checks/klayout/met_min_ca_density.lydrc'</generator>
+ <top-cell>user_analog_project_wrapper</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>m1.pd.1d</name>
+   <description>0.4 min m1 ca pattern density</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3.pd.1d</name>
+   <description>0.4 min m3 ca pattern density</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.pd.1d</name>
+   <description>0.4 min m4 ca pattern density, m4 ca density is -6.452570302021868</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m5.pd.1d</name>
+   <description>0.24 min m5 ca pattern density</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>user_analog_project_wrapper</name>
+   <variant/>
+   <references>
+   </references>
+  </cell>
+  <cell>
+   <name>bgr_gen7</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2707.065,1819.305</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_res_xhigh_po_2p85_1</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2584.505,1591.875</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_pnp_05v5_W3p40L3p40_8</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2490.505,1686.935</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_pfet_01v8_lvt_60</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2603.305,1790.325</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_pfet_01v8_lvt_12</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2640.905,1684.975</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_pfet_01v8_lvt_6</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2584.505,1650.185</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_nfet_01v8_lvt_9</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2584.505,1678.115</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_pnp_05v5_W3p40L3p40_7</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2546.905,1629.605</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_res_xhigh_po_2p85_2</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2565.705,1671.745</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_cap_mim_m3_1</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2490.505,1756.515</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_pnp_05v5_W3p40L3p40_1</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2546.905,1719.275</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_asc_nfet_01v8_lvt_1</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>m135 *1 2640.905,1655.085</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>bgr_top</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_analog_project_wrapper</parent>
+     <trans>r270 *1 2419.2,2278.57</trans>
+    </ref>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_res_xhigh_po_2p85_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;13.6,9.4;13.6,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_8</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;54.8,9.4;54.8,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_60</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;139.735,9.4;139.735,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_12</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;29.815,9.4;29.815,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_6</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;16.975,9.4;16.975,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_nfet_01v8_lvt_9</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;22.59,9.4;22.59,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_7</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;48.1,9.4;48.1,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_res_xhigh_po_2p85_2</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;16.47,9.4;16.47,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_cap_mim_m3_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;37.055,9.4;37.055,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;7.9,9.4;7.9,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.pd.1d'</category>
+   <cell>sky130_asc_nfet_01v8_lvt_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;3.97,9.4;3.97,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_res_xhigh_po_2p85_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;13.6,9.4;13.6,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_8</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;54.8,9.4;54.8,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_60</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;139.735,9.4;139.735,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_12</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;29.815,9.4;29.815,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_6</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;16.975,9.4;16.975,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_nfet_01v8_lvt_9</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;22.59,9.4;22.59,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_7</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;48.1,9.4;48.1,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_res_xhigh_po_2p85_2</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;16.47,9.4;16.47,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_cap_mim_m3_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;37.055,9.4;37.055,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;7.9,9.4;7.9,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_asc_nfet_01v8_lvt_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;3.97,9.4;3.97,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_res_xhigh_po_2p85_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;13.6,9.4;13.6,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_8</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;54.8,9.4;54.8,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_60</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;139.735,9.4;139.735,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_12</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;29.815,9.4;29.815,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_6</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;16.975,9.4;16.975,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_nfet_01v8_lvt_9</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;22.59,9.4;22.59,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_7</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;48.1,9.4;48.1,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_res_xhigh_po_2p85_2</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;16.47,9.4;16.47,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_cap_mim_m3_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;37.055,9.4;37.055,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;7.9,9.4;7.9,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_asc_nfet_01v8_lvt_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;3.97,9.4;3.97,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_res_xhigh_po_2p85_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;13.6,9.4;13.6,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_8</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;54.8,9.4;54.8,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_60</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;139.735,9.4;139.735,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_12</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;29.815,9.4;29.815,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_pfet_01v8_lvt_6</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;16.975,9.4;16.975,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_nfet_01v8_lvt_9</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;22.59,9.4;22.59,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_7</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;48.1,9.4;48.1,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_res_xhigh_po_2p85_2</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;16.47,9.4;16.47,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_cap_mim_m3_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;37.055,9.4;37.055,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_pnp_05v5_W3p40L3p40_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;7.9,9.4;7.9,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m5.pd.1d'</category>
+   <cell>sky130_asc_nfet_01v8_lvt_1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,9.4;3.97,9.4;3.97,0)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

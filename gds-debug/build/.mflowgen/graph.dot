@@ -1,0 +1,24 @@
+digraph {
+label="";
+labelloc="t";
+fontsize=60;
+size="8.5;11";
+ratio="fill";
+margin=0;
+pad=1;
+rankdir="TB";
+concentrate=true;
+splines=polyline;
+center=true;
+nodesep=1.2;
+ranksep=0.8;
+analog_skywater_130nm [ fontsize=24, width=2, penwidth=2, shape=Mrecord, label="{ {  } | \n
+analog-skywater-130nm
+
+\n\n | { <o_adk> adk } }", color=black ];
+klayout_drc_gds [ fontsize=24, width=2, penwidth=2, shape=Mrecord, label="{ {  } | \n
+klayout-drc-gds
+
+\n\n | { <o_sky130_drc_report_txt> sky130_drc_report.txt } }", color=black ];
+
+}

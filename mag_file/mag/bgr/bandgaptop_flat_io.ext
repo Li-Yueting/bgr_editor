@@ -15,346 +15,373 @@ parameters sky130_fd_pr__res_xhigh_po_0p69 l=l
 parameters sky130_fd_pr__res_xhigh_po_0p35 l=l
 parameters sky130_fd_pr__cap_mim_m3_1 w=w l=l
 parameters sky130_fd_pr__cap_mim_m3_2 w=w l=l
-node "li_474718_629632#" 13 62442.4 474718 629632 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36672380 170356 0 0 0 0 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/amplifier_0/vg" 47438 2541.71 445916 629350 pdif 0 0 0 0 0 0 0 0 313200 11148 448920 15828 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6487200 37236 0 0 529992 31992 780816 34732 207464 6300 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/amplifier_0/Vq" 29080 2881.79 441798 632820 ndif 0 0 0 0 0 0 0 0 649600 23212 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 382704 22988 601376 26592 1121714 17010 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/amplifier_0/Vx" 64220 6965.06 440882 632820 ndif 0 0 0 0 0 0 0 0 46400 1832 897840 31656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 822400 7312 0 0 616012 36848 1736384 50268 1083392 20164 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/porst" 818 25404.1 444984 636094 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2205600 11828 0 0 13600 868 425568 4508 1227200 5340 3317760 12672 9268992 33336 0 0 0 0
-node "bandgaptop_flat_0/currentmirror_0/Vgate" 50237 30834.9 444258 629324 p 0 0 0 0 0 0 0 0 626400 22064 448920 15828 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100843200 533016 0 0 1121864 68916 8001628 100580 5214824 53312 373760 3728 76207320 166322 0 0 0 0
+port "bandgaptop_flat_0/amplifier_0/vg" 11 445936 632072 445970 632164 m1
+port "bandgaptop_flat_0/amplifier_0/Vq" 7 448342 632354 448358 632478 m2
+port "bandgaptop_flat_0/ampcurrentsource_0/Vq" 3 440936 632416 442718 632486 m2
+port "bandgaptop_flat_0/amplifier_0/Vx" 12 450036 628926 450058 629050 m2
+port "bandgaptop_flat_0/ampcurrentsource_0/Vx" 4 440936 632626 442718 632696 m2
+port "bandgaptop_flat_0/porst" 1 442994 636190 443456 636388 m1
+port "bandgaptop_flat_0/currentmirror_0/Vgate" 14 454130 629106 454176 629150 m2
+port "bandgaptop_flat_0/amplifier_0/Vgate" 10 447294 632058 447388 632324 m2
+port "bandgaptop_flat_0/amplifier_0/Vgate" 10 449018 632058 449112 632324 m2
+port "bandgaptop_flat_0/bandgapcorev3_0/Va" 24 472870 641614 473574 642186 m1
+port "bandgaptop_flat_0/currentmirror_0/Va" 18 461658 638490 461858 638590 m3
+port "bandgaptop_flat_0/amplifier_0/Va" 8 448284 634614 448300 634694 m2
+port "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 22 472058 642186 472750 642878 m2
+port "bandgaptop_flat_0/currentmirror_0/Vbg" 16 461658 637290 461958 637390 m1
+port "bandgaptop_flat_0/Vbg" 2 459390 640512 464058 641188 m1
+port "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 27 473854 629908 474990 630856 m2
+port "bandgaptop_flat_0/bandgapcorev3_0/Vb" 23 473688 642180 474392 642884 m2
+port "bandgaptop_flat_0/currentmirror_0/Vb" 17 461658 637890 461858 637990 m2
+port "bandgaptop_flat_0/amplifier_0/Vb" 9 447512 634474 447528 634554 m2
+port "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" 21 462314 648388 462884 649620 m2
+port "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 19 463132 649188 463702 649620 m2
+port "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" 20 463950 642452 464520 642884 m2
+port "bandgaptop_flat_0/VDD" 26 441982 628688 442692 629110 m3
+port "bandgaptop_flat_0/currentmirror_0/VDD!" 15 454852 628750 454986 628868 m3
+port "bandgaptop_flat_0/amplifier_0/VDD!" 6 447688 629126 447704 629250 m2
+port "bandgaptop_flat_0/GND" 25 437892 626630 481132 627630 li
+port "bandgaptop_flat_0/amplifier_0/GND!" 13 444814 632730 444914 634330 li
+port "bandgaptop_flat_0/ampcurrentsource_0/GND!" 5 441796 633386 441878 633414 li
+node "li_474718_629632#" 13 61475 474718 629632 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36672380 170356 0 0 0 0 0 0 0 0 0 0 0 0
+node "bandgaptop_flat_0/amplifier_0/vg" 47438 3006.06 445936 632072 m1 0 0 0 0 0 0 0 0 313200 11148 448920 15828 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6487200 37236 0 0 529992 31992 780816 34732 207464 6300 0 0 0 0 0 0 0 0
+node "bandgaptop_flat_0/amplifier_0/Vq" 29080 5132.77 448342 632354 m2 0 0 0 0 0 0 0 0 649600 23212 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 382704 22988 601376 26592 1121714 17010 0 0 0 0 0 0 0 0
+equiv "bandgaptop_flat_0/amplifier_0/Vq" "bandgaptop_flat_0/ampcurrentsource_0/Vq"
+node "bandgaptop_flat_0/amplifier_0/Vx" 64220 5021.86 450036 628926 m2 0 0 0 0 0 0 0 0 46400 1832 897840 31656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 822400 7312 0 0 616012 36848 1736384 50268 1083392 20164 0 0 0 0 0 0 0 0
+equiv "bandgaptop_flat_0/amplifier_0/Vx" "bandgaptop_flat_0/ampcurrentsource_0/Vx"
+node "bandgaptop_flat_0/porst" 818 24680.8 442994 636190 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2205600 11828 0 0 13600 868 425568 4508 1227200 5340 3317760 12672 9268992 33336 0 0 0 0
+node "bandgaptop_flat_0/currentmirror_0/Vgate" 50237 23934 454130 629106 m2 0 0 0 0 0 0 0 0 626400 22064 448920 15828 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100843200 533016 0 0 1121864 68916 8001628 100580 5214824 53312 373760 3728 76207320 166322 0 0 0 0
+equiv "bandgaptop_flat_0/currentmirror_0/Vgate" "bandgaptop_flat_0/amplifier_0/Vgate"
 node "a_474584_642884#" 22119 0 474584 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_473766_642884#" 22119 0 473766 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/bandgapcorev3_0/Va" 1193 188035 446556 632516 p 0 0 0 0 0 0 0 0 0 0 2693520 93576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2296800 13884 0 0 2113872 99996 18093336 147652 29867292 71640 20210008 42652 19783888 42572 442376782 92570 0 0
+node "bandgaptop_flat_0/bandgapcorev3_0/Va" 1193 193542 472870 641614 m1 0 0 0 0 0 0 0 0 0 0 2693520 93576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2296800 13884 0 0 2113872 99996 18093336 147652 29867292 71640 20210008 42652 19783888 42572 442376782 92570 0 0
+equiv "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/currentmirror_0/Va"
+equiv "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/amplifier_0/Va"
 node "a_472948_642884#" 22119 0 472948 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 284 373123 459394 629388 pdif 0 0 0 0 0 0 0 0 0 0 2693520 93576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2073072 97392 28167292 131848 3288172 50552 456156692 90048 2081004 41208 0 0 0 0
+node "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 284 378188 472058 642186 m2 0 0 0 0 0 0 0 0 0 0 2693520 93576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2073072 97392 28167292 131848 3288172 50552 456156692 90048 2081004 41208 0 0 0 0
+equiv "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/currentmirror_0/Vbg"
+equiv "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/Vbg"
 node "a_472130_642884#" 22119 0 472130 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_471312_642884#" 22119 0 471312 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "a_471312_649188#" 185 3911.67 471312 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2281140 11424 1404480 7208 0 0 0 0 0 0 0 0
+node "a_471312_649188#" 185 4966.94 471312 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2281140 11424 1404480 7208 0 0 0 0 0 0 0 0
 node "a_470494_642884#" 22119 0 470494 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "a_470494_649188#" 185 3002.95 470494 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2216160 11196 1404480 7208 0 0 0 0 0 0 0 0
+node "a_470494_649188#" 185 3753.48 470494 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2216160 11196 1404480 7208 0 0 0 0 0 0 0 0
 node "a_469676_642884#" 22119 0 469676 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "a_469676_649188#" 185 5044.06 469676 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2315340 11544 2313060 10408 0 0 0 0 0 0 0 0
-node "a_468858_642452#" 185 3425.03 468858 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2212740 11184 2316480 10408 0 0 0 0 0 0 0 0
+node "a_469676_649188#" 185 5748.24 469676 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2315340 11544 2313060 10408 0 0 0 0 0 0 0 0
+node "a_468858_642452#" 185 4357.45 468858 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2212740 11184 2316480 10408 0 0 0 0 0 0 0 0
 node "a_468858_642884#" 22119 0 468858 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 79 35664.4 468040 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 492480 4008 61144348 65128 9383496 28064 0 0 0 0 0 0 0 0
+node "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 79 38021.5 473854 629908 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 492480 4008 61144348 65128 9383496 28064 0 0 0 0 0 0 0 0
 node "a_468040_642884#" 22119 0 468040 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/bandgapcorev3_0/Vb" 1176 19319.3 445984 632516 p 0 0 0 0 0 0 0 0 0 0 2693520 93576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2296800 13884 0 0 2606352 104004 10230648 129288 21570036 85920 0 0 0 0 0 0 0 0
-node "a_467222_642452#" 185 3863.48 467222 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2682420 12832 1404444 7208 0 0 0 0 0 0 0 0
+node "bandgaptop_flat_0/bandgapcorev3_0/Vb" 1176 22842.7 473688 642180 m2 0 0 0 0 0 0 0 0 0 0 2693520 93576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2296800 13884 0 0 2606352 104004 10230648 129288 21570036 85920 0 0 0 0 0 0 0 0
+equiv "bandgaptop_flat_0/bandgapcorev3_0/Vb" "bandgaptop_flat_0/currentmirror_0/Vb"
+equiv "bandgaptop_flat_0/bandgapcorev3_0/Vb" "bandgaptop_flat_0/amplifier_0/Vb"
+node "a_467222_642452#" 185 5323.36 467222 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2682420 12832 1404444 7208 0 0 0 0 0 0 0 0
 node "a_467222_642884#" 22119 0 467222 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_466404_642884#" 22119 0 466404 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "a_466404_649188#" 185 3911.29 466404 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2285700 11440 1404480 7208 0 0 0 0 0 0 0 0
-node "a_465586_642452#" 185 2657.71 465586 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 3148680 14468 1404480 7208 0 0 0 0 0 0 0 0
+node "a_466404_649188#" 185 5103.21 466404 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2285700 11440 1404480 7208 0 0 0 0 0 0 0 0
+node "a_465586_642452#" 185 4278.14 465586 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 3148680 14468 1404480 7208 0 0 0 0 0 0 0 0
 node "a_465586_642884#" 22119 0 465586 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_464768_642884#" 22119 0 464768 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "a_464768_649188#" 185 2851.47 464768 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2216160 11196 1404480 7208 0 0 0 0 0 0 0 0
+node "a_464768_649188#" 185 3624.96 464768 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2216160 11196 1404480 7208 0 0 0 0 0 0 0 0
 node "a_463950_642884#" 22119 0 463950 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "a_463950_649188#" 185 4660 463950 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 1743060 9536 2321448 10432 0 0 0 0 0 0 0 0
-node "a_463132_642452#" 185 3412.23 463132 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2682420 12832 2316480 10408 0 0 0 0 0 0 0 0
+node "a_463950_649188#" 185 5551.82 463950 649188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 1743060 9536 2321448 10432 0 0 0 0 0 0 0 0
+node "a_463132_642452#" 185 4380.25 463132 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2682420 12832 2316480 10408 0 0 0 0 0 0 0 0
 node "a_463132_642884#" 22119 0 463132 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "a_462314_642452#" 185 3873.88 462314 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2216160 11196 1404408 7208 0 0 0 0 0 0 0 0
+node "a_462314_642452#" 185 5197.4 462314 642452 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 2216160 11196 1404408 7208 0 0 0 0 0 0 0 0
 node "a_462314_642884#" 22119 0 462314 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_461496_642884#" 22119 0 461496 642884 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3593280 13748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_459042_644950#" 15088 0 459042 644950 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2451000 9740 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_458224_644950#" 15088 0 458224 644950 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2451000 9740 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" 185 6551.2 458224 649250 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 3149820 14472 1404480 7208 0 0 0 0 0 0 0 0
+node "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" 185 6187.55 462314 648388 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 3149820 14472 1404480 7208 0 0 0 0 0 0 0 0
 node "a_457406_644950#" 15088 0 457406 644950 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2451000 9740 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 185 7085.55 457406 649250 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 4081200 17740 1369140 7084 0 0 0 0 0 0 0 0
+node "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 185 8161.16 463132 649188 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 4081200 17740 1369140 7084 0 0 0 0 0 0 0 0
 node "a_456588_644950#" 15088 0 456588 644950 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2451000 9740 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_454952_644540#" 11663 0 454952 644540 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1894680 7788 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" 185 13426.7 454134 644108 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 6654180 25628 702240 3604 0 0 0 0 0 0 0 0
+node "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" 185 13668.4 463950 642452 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 984960 8016 6654180 25628 702240 3604 0 0 0 0 0 0 0 0
 node "a_454134_644540#" 11663 0 454134 644540 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1894680 7788 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_453316_644540#" 11663 0 453316 644540 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1894680 7788 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "bandgaptop_flat_0/VDD" 4183 972616 442848 628688 nw 0 0 0 0 176175572 78084 0 0 19285200 80452 10025880 349548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8452800 45464 0 0 26799136 438176 11119400 403406 7200872 55632 473414682 139736 277382812 229304 0 0 0 0
-substrate "bandgaptop_flat_0/GND" 0 0 437844 653830 ppd 0 0 0 0 0 0 0 0 823600 29444 184990336 400700 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1942400 12912 0 0 191327252 497184 93482190 258502 80147960 178516 1236738072 502388 1360291026 579682 0 0 0 0
-cap "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" "a_465586_642452#" 185.658
-cap "a_468858_642452#" "a_465586_642452#" 2743.4
-cap "a_466404_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 767.341
-cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/porst" 1491.85
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/porst" 969.859
-cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 2017.87
-cap "a_469676_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 51.2851
-cap "a_464768_649188#" "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 50.8821
-cap "a_468858_642452#" "a_467222_642452#" 936.28
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "a_470494_649188#" 518.936
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 1214.87
-cap "a_465586_642452#" "a_467222_642452#" 1208.67
-cap "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" "a_462314_642452#" 1203.35
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 14679.7
-cap "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" "a_463950_649188#" 577.477
-cap "bandgaptop_flat_0/porst" "bandgaptop_flat_0/currentmirror_0/Vgate" 1054.06
-cap "a_462314_642452#" "a_465586_642452#" 394.885
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" 5092.78
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_468858_642452#" 9118.72
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_465586_642452#" 6032.11
-cap "a_463132_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 52.5464
-cap "a_469676_649188#" "a_471312_649188#" 2711.91
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_467222_642452#" 7042.66
-cap "bandgaptop_flat_0/porst" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 2.97984
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_462314_642452#" 6906.19
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" 5529.97
-cap "a_469676_649188#" "a_466404_649188#" 579.694
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 2703.44
-cap "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1263.21
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "a_468858_642452#" 253.472
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "a_465586_642452#" 50.5151
-cap "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" "a_463132_642452#" 2629.39
-cap "a_465586_642452#" "a_463132_642452#" 2583.61
-cap "a_470494_649188#" "a_471312_649188#" 1623.99
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" "li_474718_629632#" 93670
-cap "bandgaptop_flat_0/amplifier_0/vg" "bandgaptop_flat_0/amplifier_0/Vq" 3714.34
-cap "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1035.21
-cap "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" "a_463950_649188#" 51.2851
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/VDD" 21464.8
-cap "a_470494_649188#" "a_466404_649188#" 51.2851
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_464768_649188#" 6046.16
-cap "bandgaptop_flat_0/amplifier_0/vg" "bandgaptop_flat_0/amplifier_0/Vx" 473.632
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/bandgapcorev3_0/Va" 140871
-cap "a_463132_642452#" "a_467222_642452#" 376.591
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_463950_649188#" 7923.36
-cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/amplifier_0/vg" 18513.7
-cap "bandgaptop_flat_0/amplifier_0/Vx" "bandgaptop_flat_0/amplifier_0/Vq" 1114.35
-cap "a_462314_642452#" "a_463132_642452#" 945.77
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/amplifier_0/vg" 647.539
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/currentmirror_0/Vgate" 14139.9
-cap "a_469676_649188#" "a_470494_649188#" 1404.85
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_463132_642452#" 9251.67
-cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/amplifier_0/Vq" 3466.77
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/amplifier_0/Vq" 837.428
-cap "bandgaptop_flat_0/amplifier_0/vg" "bandgaptop_flat_0/currentmirror_0/Vgate" 5500.86
-cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/amplifier_0/Vx" 26033.5
-cap "bandgaptop_flat_0/currentmirror_0/Vgate" "bandgaptop_flat_0/amplifier_0/Vq" 8296.7
-cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/bandgapcorev3_0/Va" 51545.7
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "a_464768_649188#" 507.43
-cap "bandgaptop_flat_0/amplifier_0/Vx" "bandgaptop_flat_0/currentmirror_0/Vgate" 2482.97
-cap "a_464768_649188#" "a_463950_649188#" 1405.33
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 34758.6
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "a_463950_649188#" 429.461
-cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/currentmirror_0/Vgate" 292391
-cap "bandgaptop_flat_0/amplifier_0/vg" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 863.109
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/currentmirror_0/Vgate" 62935.2
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "a_463132_642452#" 251.744
-cap "bandgaptop_flat_0/amplifier_0/Vq" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 1009.15
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "li_474718_629632#" 14.1947
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_471312_649188#" 5117.59
-cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 27789.4
-cap "a_464768_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 560.538
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_466404_649188#" 5874.29
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 33481.2
-cap "bandgaptop_flat_0/currentmirror_0/Vgate" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 17166.2
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_469676_649188#" 8643.97
-cap "a_468858_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 401.396
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "li_474718_629632#" 2180.59
-cap "a_465586_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 558.088
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "a_471312_649188#" 411.601
-cap "a_466404_649188#" "a_464768_649188#" 1269.13
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "a_466404_649188#" 441.205
-cap "a_466404_649188#" "a_463950_649188#" 634.954
-cap "a_467222_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 2463.53
-cap "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 1588.36
-cap "a_469676_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Va" 544.244
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "a_470494_649188#" 6155.19
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 5262.52
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 14226.2
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "li_474718_629632#" 419.869
-device csubckt sky130_fd_pr__cap_mim_m3_2 450868 644794 450869 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 449746 644794 449747 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 448624 644794 448625 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 447502 644794 447503 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 446380 644794 446381 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 445258 644794 445259 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 444136 644794 444137 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 443014 644794 443015 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 441892 644794 441893 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 440770 644794 440771 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 450868 645494 450869 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 449746 645494 449747 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 448624 645494 448625 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 447502 645494 447503 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 446380 645494 446381 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 445258 645494 445259 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 444136 645494 444137 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 443014 645494 443015 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 441892 645494 441893 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 440770 645494 440771 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 450868 646194 450869 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 449746 646194 449747 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 448624 646194 448625 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 447502 646194 447503 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 446380 646194 446381 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 445258 646194 445259 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 444136 646194 444137 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 443014 646194 443015 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 441892 646194 441893 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 440770 646194 440771 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 450868 646894 450869 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 449746 646894 449747 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 448624 646894 448625 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 447502 646894 447503 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 446380 646894 446381 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 445258 646894 445259 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 444136 646894 444137 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 443014 646894 443015 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 441892 646894 441893 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 440770 646894 440771 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 450868 647594 450869 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 449746 647594 449747 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 448624 647594 448625 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 447502 647594 447503 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 446380 647594 446381 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 445258 647594 445259 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 444136 647594 444137 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 443014 647594 443015 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 441892 647594 441893 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 440770 647594 440771 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 450868 648294 450869 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 449746 648294 449747 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 448624 648294 448625 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 447502 648294 447503 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 446380 648294 446381 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 445258 648294 445259 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 444136 648294 444137 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 443014 648294 443015 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 441892 648294 441893 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 440770 648294 440771 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 450868 648994 450869 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 449746 648994 449747 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 448624 648994 448625 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 447502 648994 447503 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 446380 648994 446381 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 445258 648994 445259 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 444136 648994 444137 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 443014 648994 443015 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 441892 648994 441893 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 440770 648994 440771 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 450868 649694 450869 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 449746 649694 449747 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 448624 649694 448625 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 447502 649694 447503 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 446380 649694 446381 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 445258 649694 445259 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 444136 649694 444137 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 443014 649694 443015 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 441892 649694 441893 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 440770 649694 440771 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 450868 650394 450869 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 449746 650394 449747 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 448624 650394 448625 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 447502 650394 447503 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 446380 650394 446381 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 445258 650394 445259 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 444136 650394 444137 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 443014 650394 443015 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 441892 650394 441893 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 440770 650394 440771 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 450868 651094 450869 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 449746 651094 449747 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 448624 651094 448625 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 447502 651094 447503 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 446380 651094 446381 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 445258 651094 445259 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 444136 651094 444137 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 443014 651094 443015 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 441892 651094 441893 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_2 440770 651094 440771 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1280 0 "bandgaptop_flat_0/GND" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450931 637554 450932 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450212 637554 450213 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 449493 637554 449494 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448774 637554 448775 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448055 637554 448056 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 447336 637554 447337 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 446617 637554 446618 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445898 637554 445899 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445179 637554 445180 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 444460 637554 444461 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450931 638254 450932 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450212 638254 450213 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 449493 638254 449494 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448774 638254 448775 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448055 638254 448056 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 447336 638254 447337 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 446617 638254 446618 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445898 638254 445899 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445179 638254 445180 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 444460 638254 444461 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450931 638954 450932 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450212 638954 450213 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 449493 638954 449494 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448774 638954 448775 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448055 638954 448056 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 447336 638954 447337 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 446617 638954 446618 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445898 638954 445899 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445179 638954 445180 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 444460 638954 444461 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450931 639654 450932 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450212 639654 450213 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 449493 639654 449494 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448774 639654 448775 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448055 639654 448056 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 447336 639654 447337 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 446617 639654 446618 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445898 639654 445899 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445179 639654 445180 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 444460 639654 444461 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450931 640354 450932 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450212 640354 450213 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 449493 640354 449494 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448774 640354 448775 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448055 640354 448056 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 447336 640354 447337 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 446617 640354 446618 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445898 640354 445899 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445179 640354 445180 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 444460 640354 444461 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450931 641054 450932 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450212 641054 450213 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 449493 641054 449494 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448774 641054 448775 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448055 641054 448056 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 447336 641054 447337 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 446617 641054 446618 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445898 641054 445899 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445179 641054 445180 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 444460 641054 444461 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450931 641754 450932 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450212 641754 450213 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 449493 641754 449494 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448774 641754 448775 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448055 641754 448056 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 447336 641754 447337 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 446617 641754 446618 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445898 641754 445899 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445179 641754 445180 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 444460 641754 444461 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450931 642454 450932 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450212 642454 450213 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 449493 642454 449494 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448774 642454 448775 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448055 642454 448056 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 447336 642454 447337 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 446617 642454 446618 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445898 642454 445899 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445179 642454 445180 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 444460 642454 444461 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450931 643154 450932 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450212 643154 450213 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 449493 643154 449494 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448774 643154 448775 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448055 643154 448056 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 447336 643154 447337 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 446617 643154 446618 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445898 643154 445899 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445179 643154 445180 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 444460 643154 444461 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450931 643854 450932 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 450212 643854 450213 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 449493 643854 449494 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448774 643854 448775 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 448055 643854 448056 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 447336 643854 447337 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 446617 643854 446618 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445898 643854 445899 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 445179 643854 445180 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 444460 643854 444461 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1280 0 "bandgaptop_flat_0/VDD" 1000 0
+node "bandgaptop_flat_0/VDD" 4183 963452 441982 628688 m3 0 0 0 0 176175572 78084 0 0 19285200 80452 10025880 349548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8452800 45464 0 0 26799136 438176 11119400 403406 7200872 55632 473414682 139736 277382812 229304 0 0 0 0
+equiv "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/currentmirror_0/VDD!"
+equiv "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/amplifier_0/VDD!"
+substrate "bandgaptop_flat_0/GND" 0 0 437892 626630 li 0 0 0 0 0 0 0 0 823600 29444 184990336 400700 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1942400 12912 0 0 191327252 497184 93482190 258502 80147960 178516 1236738072 502388 1360291026 579682 0 0 0 0
+equiv "bandgaptop_flat_0/GND" "bandgaptop_flat_0/amplifier_0/GND!"
+equiv "bandgaptop_flat_0/GND" "bandgaptop_flat_0/ampcurrentsource_0/GND!"
+cap "a_466404_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 6417.19
+cap "a_462314_642452#" "a_465586_642452#" 229.935
+cap "a_463950_649188#" "a_464768_649188#" 628.552
+cap "a_463132_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 9737.75
+cap "a_466404_649188#" "a_469676_649188#" 356.065
+cap "a_467222_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 2513.87
+cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/amplifier_0/Vq" 4682.39
+cap "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 5010.69
+cap "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" "bandgaptop_flat_0/bandgapcorev3_0/Va" 893.426
+cap "a_465586_642452#" "a_467222_642452#" 591.421
+cap "bandgaptop_flat_0/amplifier_0/Vx" "bandgaptop_flat_0/amplifier_0/Vq" 1086.81
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" "a_468858_642452#" 266.801
+cap "a_462314_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 6751.17
+cap "a_465586_642452#" "a_468858_642452#" 2333.85
+cap "a_468858_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Va" 55.925
+cap "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 5719.42
+cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/porst" 1214.22
+cap "a_464768_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 356.065
+cap "bandgaptop_flat_0/currentmirror_0/Vgate" "bandgaptop_flat_0/amplifier_0/Vq" 15470
+cap "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" "a_463132_642452#" 2201.11
+cap "a_467222_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 6669.33
+cap "a_464768_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 6274.58
+cap "a_465586_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 168.07
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" "bandgaptop_flat_0/bandgapcorev3_0/Va" 12273.5
+cap "a_468858_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 9434.1
+cap "a_470494_649188#" "a_471312_649188#" 792.233
+cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/amplifier_0/vg" 40.6748
+cap "bandgaptop_flat_0/currentmirror_0/Vgate" "bandgaptop_flat_0/porst" 386.189
+cap "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" "a_462314_642452#" 557.582
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 2709.14
+cap "a_463950_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 8298.83
+cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 172.774
+cap "a_462314_642452#" "a_463132_642452#" 448.791
+cap "a_471312_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 5861.14
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "bandgaptop_flat_0/amplifier_0/vg" 40.6748
+cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/amplifier_0/vg" 20127.2
+cap "bandgaptop_flat_0/amplifier_0/Vx" "bandgaptop_flat_0/amplifier_0/vg" 619.66
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 15069.6
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "bandgaptop_flat_0/bandgapcorev3_0/Va" 23458.9
+cap "a_469676_649188#" "a_471312_649188#" 2379.44
+cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/bandgapcorev3_0/Va" 57342.4
+cap "a_463132_642452#" "a_467222_642452#" 229.935
+cap "a_464768_649188#" "a_466404_649188#" 582.283
+cap "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" 869.372
+cap "a_465586_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 6457.18
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/bandgapcorev3_0/Va" 135712
+cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 23917.5
+cap "a_470494_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 6384.36
+cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/amplifier_0/Vx" 40230.7
+cap "bandgaptop_flat_0/currentmirror_0/Vgate" "bandgaptop_flat_0/amplifier_0/vg" 8044.47
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 37540.7
+cap "a_469676_649188#" "a_470494_649188#" 625.233
+cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 20370.5
+cap "a_463950_649188#" "a_466404_649188#" 356.065
+cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/currentmirror_0/Vgate" 58375.3
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "a_469676_649188#" 53.4934
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" "li_474718_629632#" 92201.1
+cap "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" "a_465586_642452#" 102.568
+cap "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" "a_464768_649188#" 53.4934
+cap "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" "a_463950_649188#" 53.4934
+cap "a_469676_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 9119.61
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "bandgaptop_flat_0/currentmirror_0/Vgate" 926.545
+cap "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1272.74
+cap "a_463132_642452#" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 55.8149
+cap "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/currentmirror_0/Vgate" 331925
+cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "li_474718_629632#" 1034.04
+cap "bandgaptop_flat_0/currentmirror_0/Vgate" "bandgaptop_flat_0/amplifier_0/Vx" 676.683
+cap "a_463132_642452#" "a_465586_642452#" 2223.1
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "bandgaptop_flat_0/currentmirror_0/Vgate" 21.2898
+cap "a_466404_649188#" "a_470494_649188#" 53.4934
+cap "a_467222_642452#" "a_468858_642452#" 448.791
+cap "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" "bandgaptop_flat_0/bandgapcorev3_0/Va" 656.721
+cap "a_466404_649188#" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 374.877
+cap "bandgaptop_flat_0/amplifier_0/Vq" "bandgaptop_flat_0/amplifier_0/vg" 5902.85
+cap "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" "a_463950_649188#" 350.243
+cap "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 5292.71
+device csubckt sky130_fd_pr__cap_mim_m3_2 450868 644794 450869 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 449746 644794 449747 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 448624 644794 448625 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 447502 644794 447503 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 446380 644794 446381 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 445258 644794 445259 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 444136 644794 444137 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 443014 644794 443015 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 441892 644794 441893 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 440770 644794 440771 644795 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 450868 645494 450869 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 449746 645494 449747 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 448624 645494 448625 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 447502 645494 447503 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 446380 645494 446381 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 445258 645494 445259 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 444136 645494 444137 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 443014 645494 443015 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 441892 645494 441893 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 440770 645494 440771 645495 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 450868 646194 450869 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 449746 646194 449747 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 448624 646194 448625 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 447502 646194 447503 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 446380 646194 446381 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 445258 646194 445259 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 444136 646194 444137 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 443014 646194 443015 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 441892 646194 441893 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 440770 646194 440771 646195 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 450868 646894 450869 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 449746 646894 449747 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 448624 646894 448625 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 447502 646894 447503 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 446380 646894 446381 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 445258 646894 445259 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 444136 646894 444137 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 443014 646894 443015 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 441892 646894 441893 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 440770 646894 440771 646895 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 450868 647594 450869 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 449746 647594 449747 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 448624 647594 448625 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 447502 647594 447503 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 446380 647594 446381 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 445258 647594 445259 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 444136 647594 444137 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 443014 647594 443015 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 441892 647594 441893 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 440770 647594 440771 647595 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 450868 648294 450869 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 449746 648294 449747 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 448624 648294 448625 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 447502 648294 447503 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 446380 648294 446381 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 445258 648294 445259 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 444136 648294 444137 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 443014 648294 443015 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 441892 648294 441893 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 440770 648294 440771 648295 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 450868 648994 450869 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 449746 648994 449747 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 448624 648994 448625 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 447502 648994 447503 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 446380 648994 446381 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 445258 648994 445259 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 444136 648994 444137 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 443014 648994 443015 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 441892 648994 441893 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 440770 648994 440771 648995 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 450868 649694 450869 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 449746 649694 449747 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 448624 649694 448625 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 447502 649694 447503 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 446380 649694 446381 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 445258 649694 445259 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 444136 649694 444137 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 443014 649694 443015 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 441892 649694 441893 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 440770 649694 440771 649695 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 450868 650394 450869 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 449746 650394 449747 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 448624 650394 448625 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 447502 650394 447503 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 446380 650394 446381 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 445258 650394 445259 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 444136 650394 444137 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 443014 650394 443015 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 441892 650394 441893 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 440770 650394 440771 650395 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 450868 651094 450869 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 449746 651094 449747 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 448624 651094 448625 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 447502 651094 447503 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 446380 651094 446381 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 445258 651094 445259 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 444136 651094 444137 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 443014 651094 443015 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 441892 651094 441893 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 440770 651094 440771 651095 w=400 l=400 "None" "bandgaptop_flat_0/bandgapcorev3_0/Va" 944 0 "bandgaptop_flat_0/GND" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450931 637554 450932 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450212 637554 450213 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 449493 637554 449494 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448774 637554 448775 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448055 637554 448056 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 447336 637554 447337 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 446617 637554 446618 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445898 637554 445899 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445179 637554 445180 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 444460 637554 444461 637555 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450931 638254 450932 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450212 638254 450213 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 449493 638254 449494 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448774 638254 448775 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448055 638254 448056 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 447336 638254 447337 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 446617 638254 446618 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445898 638254 445899 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445179 638254 445180 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 444460 638254 444461 638255 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450931 638954 450932 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450212 638954 450213 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 449493 638954 449494 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448774 638954 448775 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448055 638954 448056 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 447336 638954 447337 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 446617 638954 446618 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445898 638954 445899 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445179 638954 445180 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 444460 638954 444461 638955 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450931 639654 450932 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450212 639654 450213 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 449493 639654 449494 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448774 639654 448775 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448055 639654 448056 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 447336 639654 447337 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 446617 639654 446618 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445898 639654 445899 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445179 639654 445180 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 444460 639654 444461 639655 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450931 640354 450932 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450212 640354 450213 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 449493 640354 449494 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448774 640354 448775 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448055 640354 448056 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 447336 640354 447337 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 446617 640354 446618 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445898 640354 445899 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445179 640354 445180 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 444460 640354 444461 640355 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450931 641054 450932 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450212 641054 450213 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 449493 641054 449494 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448774 641054 448775 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448055 641054 448056 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 447336 641054 447337 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 446617 641054 446618 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445898 641054 445899 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445179 641054 445180 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 444460 641054 444461 641055 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450931 641754 450932 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450212 641754 450213 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 449493 641754 449494 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448774 641754 448775 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448055 641754 448056 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 447336 641754 447337 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 446617 641754 446618 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445898 641754 445899 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445179 641754 445180 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 444460 641754 444461 641755 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450931 642454 450932 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450212 642454 450213 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 449493 642454 449494 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448774 642454 448775 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448055 642454 448056 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 447336 642454 447337 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 446617 642454 446618 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445898 642454 445899 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445179 642454 445180 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 444460 642454 444461 642455 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450931 643154 450932 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450212 643154 450213 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 449493 643154 449494 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448774 643154 448775 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448055 643154 448056 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 447336 643154 447337 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 446617 643154 446618 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445898 643154 445899 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445179 643154 445180 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 444460 643154 444461 643155 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450931 643854 450932 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 450212 643854 450213 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 449493 643854 449494 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448774 643854 448775 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 448055 643854 448056 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 447336 643854 447337 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 446617 643854 446618 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445898 643854 445899 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 445179 643854 445180 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 444460 643854 444461 643855 w=400 l=400 "None" "bandgaptop_flat_0/currentmirror_0/Vgate" 1216 0 "bandgaptop_flat_0/VDD" 0 0
 device msubckt sky130_fd_pr__pfet_01v8_lvt 469532 629388 469533 629389 l=400 w=7740 "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/VDD" 800 0 "bandgaptop_flat_0/bandgapcorev3_0/Va" 7740 0 "bandgaptop_flat_0/VDD" 7740 0
 device msubckt sky130_fd_pr__pfet_01v8_lvt 469074 629388 469075 629389 l=400 w=7740 "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/currentmirror_0/Vgate" 800 0 "bandgaptop_flat_0/VDD" 7740 0 "bandgaptop_flat_0/bandgapcorev3_0/Va" 7740 0
 device msubckt sky130_fd_pr__pfet_01v8_lvt 468616 629388 468617 629389 l=400 w=7740 "bandgaptop_flat_0/VDD" "bandgaptop_flat_0/currentmirror_0/Vgate" 800 0 "bandgaptop_flat_0/bandgapcorev3_0/Va" 7740 0 "bandgaptop_flat_0/VDD" 7740 0
@@ -416,129 +443,134 @@ device msubckt sky130_fd_pr__nfet_01v8_lvt 441398 632820 441399 632821 l=400 w=4
 device msubckt sky130_fd_pr__nfet_01v8_lvt 440940 632820 440941 632821 l=400 w=400 "bandgaptop_flat_0/GND" "bandgaptop_flat_0/amplifier_0/Vx" 800 0 "bandgaptop_flat_0/amplifier_0/Vx" 400 0 "bandgaptop_flat_0/GND" 400 0
 device msubckt sky130_fd_pr__nfet_01v8_lvt 440482 632820 440483 632821 l=400 w=400 "bandgaptop_flat_0/GND" "bandgaptop_flat_0/GND" 800 0 "bandgaptop_flat_0/GND" 400 0 "bandgaptop_flat_0/amplifier_0/Vx" 400 0
 device msubckt sky130_fd_pr__nfet_01v8_lvt 445072 636094 445073 636095 l=400 w=5400 "bandgaptop_flat_0/GND" "bandgaptop_flat_0/porst" 800 0 "bandgaptop_flat_0/currentmirror_0/Vgate" 5400 0 "bandgaptop_flat_0/GND" 5400 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 474584 642884 474585 642885 l=6304 "bandgaptop_flat_0/GND" "a_474584_642884#" 0 0 "bandgaptop_flat_0/GND" 0 0 "bandgaptop_flat_0/GND" 1140 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 473766 642884 473767 642885 l=6304 "bandgaptop_flat_0/GND" "a_473766_642884#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/Vb" 570 0 "a_471312_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 472948 642884 472949 642885 l=6304 "bandgaptop_flat_0/GND" "a_472948_642884#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/Va" 570 0 "a_470494_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 472130 642884 472131 642885 l=6304 "bandgaptop_flat_0/GND" "a_472130_642884#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 570 0 "a_469676_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 471312 642884 471313 642885 l=6304 "bandgaptop_flat_0/GND" "a_471312_642884#" 0 0 "a_468858_642452#" 570 0 "a_471312_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 470494 642884 470495 642885 l=6304 "bandgaptop_flat_0/GND" "a_470494_642884#" 0 0 "a_467222_642452#" 570 0 "a_470494_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 469676 642884 469677 642885 l=6304 "bandgaptop_flat_0/GND" "a_469676_642884#" 0 0 "a_465586_642452#" 570 0 "a_469676_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 468858 642884 468859 642885 l=6304 "bandgaptop_flat_0/GND" "a_468858_642884#" 0 0 "a_468858_642452#" 570 0 "a_466404_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 468040 642884 468041 642885 l=6304 "bandgaptop_flat_0/GND" "a_468040_642884#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 570 0 "bandgaptop_flat_0/bandgapcorev3_0/Vb" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 467222 642884 467223 642885 l=6304 "bandgaptop_flat_0/GND" "a_467222_642884#" 0 0 "a_467222_642452#" 570 0 "a_464768_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 466404 642884 466405 642885 l=6304 "bandgaptop_flat_0/GND" "a_466404_642884#" 0 0 "a_463132_642452#" 570 0 "a_466404_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 465586 642884 465587 642885 l=6304 "bandgaptop_flat_0/GND" "a_465586_642884#" 0 0 "a_465586_642452#" 570 0 "a_463950_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 464768 642884 464769 642885 l=6304 "bandgaptop_flat_0/GND" "a_464768_642884#" 0 0 "a_462314_642452#" 570 0 "a_464768_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 463950 642884 463951 642885 l=6304 "bandgaptop_flat_0/GND" "a_463950_642884#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" 570 0 "a_463950_649188#" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 463132 642884 463133 642885 l=6304 "bandgaptop_flat_0/GND" "a_463132_642884#" 0 0 "a_463132_642452#" 570 0 "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 462314 642884 462315 642885 l=6304 "bandgaptop_flat_0/GND" "a_462314_642884#" 0 0 "a_462314_642452#" 570 0 "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 461496 642884 461497 642885 l=6304 "bandgaptop_flat_0/GND" "a_461496_642884#" 0 0 "bandgaptop_flat_0/GND" 1140 0 "bandgaptop_flat_0/GND" 0 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 459042 644950 459043 644951 l=4300 "bandgaptop_flat_0/GND" "a_459042_644950#" 0 0 "bandgaptop_flat_0/GND" 1140 0 "bandgaptop_flat_0/GND" 0 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 458224 644950 458225 644951 l=4300 "bandgaptop_flat_0/GND" "a_458224_644950#" 0 0 "bandgaptop_flat_0/GND" 570 0 "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 457406 644950 457407 644951 l=4300 "bandgaptop_flat_0/GND" "a_457406_644950#" 0 0 "bandgaptop_flat_0/GND" 570 0 "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 456588 644950 456589 644951 l=4300 "bandgaptop_flat_0/GND" "a_456588_644950#" 0 0 "bandgaptop_flat_0/GND" 1140 0 "bandgaptop_flat_0/GND" 0 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 454952 644540 454953 644541 l=3324 "bandgaptop_flat_0/GND" "a_454952_644540#" 0 0 "bandgaptop_flat_0/GND" 1140 0 "bandgaptop_flat_0/GND" 0 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 454134 644540 454135 644541 l=3324 "bandgaptop_flat_0/GND" "a_454134_644540#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" 570 0 "bandgaptop_flat_0/GND" 570 0
-device rsubckt sky130_fd_pr__res_xhigh_po_2p85 453316 644540 453317 644541 l=3324 "bandgaptop_flat_0/GND" "a_453316_644540#" 0 0 "bandgaptop_flat_0/GND" 1140 0 "bandgaptop_flat_0/GND" 0 0
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -122.518
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" -122.518
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Emitter" -133.725
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Emitter" -143.592
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Emitter" -90.2362
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" 10.2343
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" -362.319
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -584.095
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Emitter" -768.512
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Collector" -711.289
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Emitter" -381.165
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,4]/Emitter" 51.4583
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" -598.323
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" -822.461
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Collector" -825.387
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Collector" -740.505
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Emitter" -359.417
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,4]/Emitter" 78.3393
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" 0.919316
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Emitter" -597.935
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" 0.95373
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" -825.347
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,1]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -0.399707
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,1]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,1]/Emitter" -831.859
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,2]/Collector" -743.208
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,3]/Collector" -359.403
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,4]/Emitter" 75.7589
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" 12.6894
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" 2.19503
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" 142.199
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" -601.287
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" 180.399
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" -600.622
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" 149.13
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" 123.599
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,1]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,1]/Emitter" -460.072
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,1]/Emitter" 143.798
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,1]/Collector" -135.11
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,2]/Collector" -724.129
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,2]/Collector" -0.941687
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,3]/Collector" -363.25
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,4]/Emitter" 77.5229
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Va" 11.1152
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" "bandgaptop_flat_0/bandgapcorev3_0/Va" 25.8295
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" 208.346
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" -513.535
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" 178.501
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" 152.097
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" 121.105
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" -610.63
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,1]/Collector" -480.208
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" 134.55
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,1]/Collector" -130.108
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,2]/Collector" -725.432
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,2]/Collector" -0.746693
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,3]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,3]/Emitter" -361.923
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,4]/Emitter" 70.289
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" 12.9923
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" 37.5298
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" 4.17873
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" 104.195
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" -562.716
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -0.113736
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 14.662
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -3.08136
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" "bandgaptop_flat_0/bandgapcorev3_0/Vb" -2.05921
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" -821.348
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -0.117833
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,1]/Collector" -820.252
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,1]/Collector" -1.49776
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,3]/Emitter" -740.505
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,3]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,3]/Emitter" -358.919
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,4]/Emitter" 6.78955
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Base" 5.90164
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" 93.0799
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Collector" 27.6107
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Collector" 30.6834
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" 6.13527
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" 11.8651
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" 0.854331
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Collector" -451.695
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Collector" -2.30872
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" -752.16
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,1]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,1]/Emitter" -763.257
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,2]/Collector" -693.449
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,3]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,3]/Emitter" -364.641
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,4]/Emitter" 6.53237
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,0]/Collector" 41.7344
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vbg" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,0]/Collector" 23.5222
-cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,0]/Collector" 6.18471
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,0]/Collector" -126.641
-cap "bandgaptop_flat_0/bandgapcorev3_0/Vb" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,0]/Collector" -1.66773
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,0]/Collector" "bandgaptop_flat_0/bandgapcorev3_0/Vbg" -0.39464
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,0]/Collector" "bandgaptop_flat_0/bandgapcorev3_0/Va" -0.0960458
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,0]/Emitter" -171.706
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,1]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,1]/Emitter" -186.255
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,2]/Collector" -201.26
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,3]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,3]/Emitter" -125.924
-merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,3]/Base" -79247 0 0 0 0 0 0 0 0 0 0 -5804277 -31975 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32404329 -513493 -4024508 -7537 -3954160 -6784 -4062960 -6816 -3841344 -6780 0 0 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po 474584 642884 474585 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_474584_642884#" 0 0 "bandgaptop_flat_0/GND" 0 0 "bandgaptop_flat_0/GND" 1140 0
+device rsubckt sky130_fd_pr__res_xhigh_po 473766 642884 473767 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_473766_642884#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/Vb" 570 0 "a_471312_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 472948 642884 472949 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_472948_642884#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/Va" 570 0 "a_470494_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 472130 642884 472131 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_472130_642884#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/Vbg" 570 0 "a_469676_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 471312 642884 471313 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_471312_642884#" 0 0 "a_468858_642452#" 570 0 "a_471312_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 470494 642884 470495 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_470494_642884#" 0 0 "a_467222_642452#" 570 0 "a_470494_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 469676 642884 469677 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_469676_642884#" 0 0 "a_465586_642452#" 570 0 "a_469676_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 468858 642884 468859 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_468858_642884#" 0 0 "a_468858_642452#" 570 0 "a_466404_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 468040 642884 468041 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_468040_642884#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 570 0 "bandgaptop_flat_0/bandgapcorev3_0/Vb" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 467222 642884 467223 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_467222_642884#" 0 0 "a_467222_642452#" 570 0 "a_464768_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 466404 642884 466405 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_466404_642884#" 0 0 "a_463132_642452#" 570 0 "a_466404_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 465586 642884 465587 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_465586_642884#" 0 0 "a_465586_642452#" 570 0 "a_463950_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 464768 642884 464769 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_464768_642884#" 0 0 "a_462314_642452#" 570 0 "a_464768_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 463950 642884 463951 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_463950_642884#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" 570 0 "a_463950_649188#" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 463132 642884 463133 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_463132_642884#" 0 0 "a_463132_642452#" 570 0 "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 462314 642884 462315 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_462314_642884#" 0 0 "a_462314_642452#" 570 0 "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 461496 642884 461497 642885 l=6304 w=570 "bandgaptop_flat_0/GND" "a_461496_642884#" 0 0 "bandgaptop_flat_0/GND" 1140 0 "bandgaptop_flat_0/GND" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po 459042 644950 459043 644951 l=4300 w=570 "bandgaptop_flat_0/GND" "a_459042_644950#" 0 0 "bandgaptop_flat_0/GND" 1140 0 "bandgaptop_flat_0/GND" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po 458224 644950 458225 644951 l=4300 w=570 "bandgaptop_flat_0/GND" "a_458224_644950#" 0 0 "bandgaptop_flat_0/GND" 570 0 "bandgaptop_flat_0/bandgapcorev3_0/VaEnd" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 457406 644950 457407 644951 l=4300 w=570 "bandgaptop_flat_0/GND" "a_457406_644950#" 0 0 "bandgaptop_flat_0/GND" 570 0 "bandgaptop_flat_0/bandgapcorev3_0/VbEnd" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 456588 644950 456589 644951 l=4300 w=570 "bandgaptop_flat_0/GND" "a_456588_644950#" 0 0 "bandgaptop_flat_0/GND" 1140 0 "bandgaptop_flat_0/GND" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po 454952 644540 454953 644541 l=3324 w=570 "bandgaptop_flat_0/GND" "a_454952_644540#" 0 0 "bandgaptop_flat_0/GND" 1140 0 "bandgaptop_flat_0/GND" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po 454134 644540 454135 644541 l=3324 w=570 "bandgaptop_flat_0/GND" "a_454134_644540#" 0 0 "bandgaptop_flat_0/bandgapcorev3_0/VbgEnd" 570 0 "bandgaptop_flat_0/GND" 570 0
+device rsubckt sky130_fd_pr__res_xhigh_po 453316 644540 453317 644541 l=3324 w=570 "bandgaptop_flat_0/GND" "a_453316_644540#" 0 0 "bandgaptop_flat_0/GND" 1140 0 "bandgaptop_flat_0/GND" 0 0
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -55.6091
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -55.6091
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Collector" -62.0995
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Collector" -64.5834
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Collector" -40.1443
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -0.0635126
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -139.709
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" 16283.7
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -9290.84
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Collector" 1355.77
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Collector" 6889.38
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Collector" 4771.53
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,4]/Collector" 8.08913
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -0.0635126
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -0.439216
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -0.00907323
+cap "bandgaptop_flat_0/bandgapcorev3_0/Vbneg" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -1192.06
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" -22644.3
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Collector" 1303.77
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Collector" 6839.23
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Collector" 4753.33
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,4]/Collector" 8.82252
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" -0.0544394
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" -0.494118
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" -0.0272197
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" -1141.62
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" -23374
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,1]/Collector" -6.53836
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -26.488
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,1]/Collector" 1251.24
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,2]/Collector" 6917.62
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,3]/Collector" 4802.4
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,4]/Collector" 8.82252
+cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" -84.6161
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Va" 8.88178e-16
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" -0.0362929
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" -0.439216
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" -0.0362929
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" -5996.33
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -351.122
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" -48.0058
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" -22452.1
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" 7704.96
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" 3368.89
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,1]/Collector" -549.674
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,1]/Collector" -269.707
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -150.39
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,2]/Collector" -3.5895
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,2]/Collector" -2855.59
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -19.9631
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,3]/Collector" -8348.93
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,4]/Collector" 8.82252
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" -0.439216
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" -0.0453662
+cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" -69.5928
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Va" 5.61089
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" -0.0272197
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" -32.5079
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -537.523
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" -6038.39
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" 2165.04
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" -22364.9
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,0]/Collector" 5907.86
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -122.772
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,1]/Collector" -540.915
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,1]/Collector" -247.793
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -15.426
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,2]/Collector" -2857.08
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,2]/Collector" -2.94886
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,3]/Collector" -8349.01
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[3,4]/Emitter" 8.82252
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" -0.439216
+cap "bandgaptop_flat_0/bandgapcorev3_0/Va" "bandgaptop_flat_0/bandgapcorev3_0/Vb" -6.20891
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,1]/Emitter" -0.0181465
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Va" 1.70442
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,1]/Emitter" -0.0544394
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" 1.70442
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" -1116.91
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,0]/Collector" -22541.8
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,1]/Collector" 1246.72
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" -21.2876
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,1]/Collector" -6.53836
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Collector" 6917.7
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,3]/Collector" 4802.94
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,4]/Emitter" 8.82252
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Collector" -0.0635126
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Va" 7.58901
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Collector" -0.439216
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Collector" -0.00907323
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 8.097
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Vb" 8.097
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Collector" -1125.24
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Va" 7.58901
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,0]/Collector" -22069.1
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,1]/Collector" 1345.92
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,2]/Collector" 6882.31
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,3]/Collector" 4773.91
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,4]/Collector" 8.57076
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,0]/Collector" -55.6091
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,0]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,0]/Collector" -55.6091
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,1]/Collector" -62.0995
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,2]/Collector" -64.5834
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,3]/Collector" -40.1443
+merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,3]/Base" -4.52739e+06 0 0 0 0 0 0 0 0 0 0 -858252980 -31975 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 706330465 -513493 -795402852 -7537 -786615202 -6784 -777858570 -6816 -273264490 -6780 0 0 0 0
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,3]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,2]/Base"
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,2]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,1]/Base"
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,1]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,0]/Base"
@@ -619,7 +651,7 @@ merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" "sky130_fd_pr__rf_
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Base" "bandgaptop_flat_0/GND"
 merge "bandgaptop_flat_0/GND" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector"
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Collector" "li_474718_629632#"
-merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,3]/Emitter" -27847.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -13781120 -96380 -255012 -1486 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,3]/Emitter" -1.07258e+06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1588214923 -96380 -11382516 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,2]/Emitter"
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,1]/Emitter"
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[7,0]/Emitter"
@@ -658,37 +690,31 @@ merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,3]/Emitter" "sky130_fd_pr__rf_pn
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Emitter"
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,1]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter"
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0,0]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Vbneg"
-merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Va" -9800.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -487536 -3996 -4276058 -24317 -3236482 -12998 -230608 -2452 -216228 -2392 -3646284 -10789 0 0
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Emitter" -8.31931
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Collector" 10.7469
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Collector" 8.5551
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Collector" 10.7469
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Emitter" -8.31931
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Collector" 8.52924
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Base" 10.7724
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Base" 26.4703
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Emitter" 26.4703
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Emitter" 192.739
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Collector" 1.80328
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2:7,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Collector" 0.00442236
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2:7,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Collector" 1.80328
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2:7,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Collector" 0.00101286
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Collector" 0.00543522
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Base" -8.25773
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Base" 22.1079
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Base" 3.13011
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Emitter" 178.142
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Base" 3.13011
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Emitter" 7.05098
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Base" 5.98051
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Emitter" 22.1097
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Collector" 7.05089
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Base" -8.25607
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,2:4]/Emitter" 0.00101286
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Collector" 1.80328
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Emitter" 0.00543522
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,2:4]/Base" 1.80328
-cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,2:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Collector" 0.00442236
+merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[4,2]/Emitter" "bandgaptop_flat_0/bandgapcorev3_0/Va" 210399 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -420188 -2816 410199261 -21517 -48203661 -11742 -11393448 -2452 -11920998 -2392 -6141594 -10789 0 0
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Emitter" 56.6376
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Collector" 19.9231
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Emitter" 65.9129
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Base" 120.297
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Collector" 19.9231
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Emitter" 56.6376
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Collector" 13.0767
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Collector" 13.0767
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2:7,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Collector" 18.5637
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2:7,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Collector" 12.2599
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Collector" 18.5637
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:5,0:4]/Collector" 12.2599
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Collector" 13.0767
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Emitter" 56.6376
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Collector" 19.9231
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Base" 56.6376
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Collector" 19.9231
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Collector" 13.0767
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Emitter" 65.9129
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Base" 120.297
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Collector" 18.5637
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,2:4]/Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Collector" 18.5637
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,2:4]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Collector" 12.2599
+cap "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:2]/Collector" 12.2599
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,2]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,1]/Collector" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[6,1]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,2]/Collector"
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,2]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[5,1]/Collector"
@@ -701,5 +727,5 @@ merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[2,0]/Collector" "sky130_fd_pr__rf_
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,2]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,1]/Collector"
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,1]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector"
 merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1,0]/Collector" "bandgaptop_flat_0/GND"
-merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Collector" -527.206 0 0 0 0 0 0 0 0 0 0 0 -2576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2576 0 0 0 0 0 0 0 0 0 0 0 0
-merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Collector" -544.771 0 0 0 0 0 0 0 0 0 0 0 -2576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2576 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,1:4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:7,0:3]/Collector" -524.216 0 0 0 0 0 0 0 0 0 0 0 -2576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2576 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[1:7,0:4]/Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0[0:6,0:4]/Collector" -524.216 0 0 0 0 0 0 0 0 0 0 0 -2576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2576 0 0 0 0 0 0 0 0 0 0 0 0

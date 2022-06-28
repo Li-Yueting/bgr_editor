@@ -1,0 +1,15 @@
+#! /usr/bin/env bash
+set -euo pipefail
+#=========================================================================
+# mflowgen-debug
+#=========================================================================
+# Generator : /scratch/users/lyt1314/mflowgen/mflowgen/core/build_orchestrator.py
+
+# Pre
+
+export design_name=user_analog_project_wrapper
+
+# Debug
+
+klayout -s ./user_analog_project_wrapper.gds -m ./outputs/sky130_drc_report.txt
+
