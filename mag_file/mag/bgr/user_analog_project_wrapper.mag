@@ -2919,19 +2919,19 @@ rect 573258 301042 573934 302452
 rect 571184 301002 573934 301042
 rect 569162 300990 573934 301002
 rect 567172 147394 573934 300990
-use bandgaptop_flat_io  bandgaptop_flat_io_0 ~/Desktop/bgr_editor/mag_file/mag/bgr
+use bandgaptop_flat_io  bandgaptop_flat_io_0 
 timestamp 1656304949
 transform 0 1 -129800 -1 0 972356
 box 422960 603262 497922 669400
-use bgr_gen7  bgr_gen7_0 ~/Desktop/bgr_editor/mag_file/mag/bgr
+use bgr_gen7  bgr_gen7_0 
 timestamp 1656306043
 transform 0 -1 541413 -1 0 363861
 box -205 -1505 55275 53897
-use bgr_top  bgr_top_0 ~/Desktop/bgr_editor/mag_file/mag/bgr
+use bgr_top  bgr_top_0 
 timestamp 1656306043
 transform 0 1 483840 -1 0 455714
 box 0 0 58512 56576
-use nmos_flat  nmos_flat_0 ~/Desktop/bgr_editor/mag_file/mag/bgr
+use nmos_flat  nmos_flat_0 
 timestamp 1655700407
 transform -1 0 563187 0 1 355948
 box -2706 -1060 2635 940
@@ -2955,7 +2955,7 @@ use nmos_flat  nmos_flat_5
 timestamp 1655700407
 transform -1 0 563303 0 1 508484
 box -2706 -1060 2635 940
-use pmos_flat  pmos_flat_0 ~/Desktop/bgr_editor/mag_file/mag/bgr
+use pmos_flat  pmos_flat_0 
 timestamp 1655503347
 transform -1 0 577157 0 1 445592
 box -2742 -1060 2645 940

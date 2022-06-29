@@ -1,7 +1,0 @@
-
-(process:747443): Gtk-WARNING **: 01:58:32.543: Locale not supported by C library.
-	Using the fallback 'C' locale.
-Error creating proxy: Could not connect: No such file or directory (g-io-error-quark, 1)
-Error creating proxy: Could not connect: No such file or directory (g-io-error-quark, 1)
-Error creating proxy: Could not connect: No such file or directory (g-io-error-quark, 1)
-Error creating proxy: Could not connect: No such file or directory (g-io-error-quark, 1)

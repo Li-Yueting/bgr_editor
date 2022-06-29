@@ -264,5 +264,5 @@ graph:
 .PHONY: status
 
 status:
-	@/scratch/users/lyt1314/mflowgen/mflowgen/scripts/mflowgen-status --backend make -s 0-analog-skywater-130nm,1-klayout-drc-gds
+	@/scratch/users/lyt1314/mflowgen/mflowgen/scripts/mflowgen-status --backend make -s 1-klayout-drc-gds,0-analog-skywater-130nm
 
